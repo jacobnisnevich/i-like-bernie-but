@@ -47,7 +47,11 @@ body {
 
 .faq .entry {
 	font: 20px "Roboto Slab";
-	margin: 20px 0px;
+	margin: 80px 0px;
+}
+
+.question-container {
+	max-width: 55%;
 }
 
 .question {
@@ -75,6 +79,7 @@ body {
 .answer-container {
 	float: right;
 	margin-top: 20px;
+	max-width: 55%;
 }
 
 .answer {
