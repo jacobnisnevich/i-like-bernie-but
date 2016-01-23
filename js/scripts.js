@@ -3,10 +3,10 @@ $(document).ready(function() {
 		generateEntry(entry);
 	});
 
-	$(".question").click(function() {
-		$answerContainer = $($(this).parent().parent().find(".answer-container")[0]);
-		$answerContainer.slideToggle("fast");
-	});
+	// $(".question").click(function() {
+	// 	$answerContainer = $($(this).parent().parent().find(".answer-container")[0]);
+	// 	$answerContainer.slideToggle("fast");
+	// });
 });
 
 var generateEntry = function(entry) {
