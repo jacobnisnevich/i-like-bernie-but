@@ -2,6 +2,11 @@ $(document).ready(function() {
 	faq.forEach(function(entry) {
 		generateEntry(entry);
 	});
+
+	$(".question").click(function() {
+		$answerContainer = $($(this).parent().parent().find(".answer-container")[0]);
+		$answerContainer.slideToggle("fast");
+	});
 });
 
 var generateEntry = function(entry) {
