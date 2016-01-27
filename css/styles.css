@@ -125,3 +125,11 @@ body {
 	background-image: url("../img/billionaires.svg");
 	background-size: 100%;
 }
+
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
