@@ -19,15 +19,15 @@ var faq = [{
     "question": "... how could he get anything done with a Republican Congress?",
     "answer": 
         "Bernie is actually well-known for his ability to compromise to get things done without sacrificing his values. In the House, he was known as the Amendment King, and passed more amendments &mdash; <a href='http://www.dailykos.com/story/2015/10/6/1428616/-Bernie-Sanders-What-the-Hell-Have-You-Done-for-Us-Lately'>addressing exclusively progressive goals</a> &mdash; <a href='http://www.alternet.org/election-2016/bernie-gets-it-done-sanders-record-pushing-through-major-reforms-will-surprise-you'>than any other legislator</a>, by forging cross-party coalitions.<br><br>" + 
-        "He has earned respect from Republicans ranging from <a href='http://www.washingtonexaminer.com/mccain-calls-sanders-x-rated-but-an-honest-man/article/2577874'>John McCain</a> to the ultra-conservative <a href='http://www.bloomberg.com/features/2016-bernie-sanders-fundraising/'>Jim Inhofe</a>. If any Democratic president can reach across the aisle to work with a stubborn Republican Congress, it's Bernie Sanders."
+        "He has <a href='https://pplswar.wordpress.com/2016/01/26/republicans-for-bernie-sanders/'>earned respect from Republicans</a> ranging from <a href='http://www.washingtonexaminer.com/mccain-calls-sanders-x-rated-but-an-honest-man/article/2577874'>John McCain</a> to the ultra-conservative <a href='http://www.bloomberg.com/features/2016-bernie-sanders-fundraising/'>Jim Inhofe</a>. If any Democratic president can reach across the aisle to work with a stubborn Republican Congress, it's Bernie Sanders."
 },{
     "question": "... isn't he too weak on gun control?",
     "answer": 
-        "Hardly &mdash; he has a <a href='http://votesmart.org/candidate/evaluations/27110/bernie-sanders/37'>25% lifetime score</a> from the NRA and <a href='http://votesmart.org/candidate/evaluations/27110/bernie-sanders/37'>consistent high ratings</a> from the Brady Campaign to Prevent Gun Violence.<br><br>" +
+        "Hardly &mdash; he has a <a href='http://www.politifact.com/truth-o-meter/statements/2016/jan/20/bernie-s/bernie-sanders-nra-report-card-d-minus-most-recent/'>D- rating</a> from the NRA and <a href='http://votesmart.org/candidate/evaluations/27110/bernie-sanders/37'>consistent high ratings</a> from the Brady Campaign to Prevent Gun Violence.<br><br>" +
         "His position is that <a href='http://thehill.com/blogs/blog-briefing-room/255741-sanders-sees-consensus-for-serious-gun-control'>a broad consensus of common-sense gun control measures</a> is possible if neither side is alienated through overly divisive rhetoric."
 },{
     "question": "... I heard he wants to get rid of Obamacare!",
-    "answer": "Blah... Denmark... blah...democratic socialist... blah..."
+    "answer": "Only to replace "
 },{
     "question": "... does he have any experience with foreign policy?",
     "answer": "Blah... D- NRA record... blah..."
