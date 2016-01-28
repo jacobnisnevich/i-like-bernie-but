@@ -1,8 +1,8 @@
 var faq = [{
     "question": "... isn't he a socialist?",
     "answer": 
-        "Bernie Sanders is a <a href='http://www.politifact.com/truth-o-meter/article/2015/aug/26/bernie-sanders-socialist-or-democratic-socialist/'><i>democratic socialist</i></a> . In essence, he believes that our current economic system doesn't do enough to help poor and middle-class Americans and that democratic change is needed to create a more fair and just system.<br><br>" + 
-        "But this isn't radical or scary! Many of the programs instituted by Franklin D. Roosevelt and Lyndon Johnson that we take for granted today &mdash; such as Medicare, the 40-hour work week, and the minimum wage &mdash; <a href='http://www.theatlantic.com/politics/archive/2015/11/bernie-sanders-makes-his-pitch-for-socialism/416913/'>can be considered socialist programs</a> ."
+        "Bernie Sanders is a <a href='http://www.politifact.com/truth-o-meter/article/2015/aug/26/bernie-sanders-socialist-or-democratic-socialist/'><i>democratic socialist</i></a>. He believes that our current economic system isn't doing enough for poor and middle-class Americans and that democratic change is needed to create a more fair and just America.<br><br>" + 
+        "But this isn't radical or scary! Many of the programs instituted by Franklin D. Roosevelt and Lyndon Johnson that we take for granted today &mdash; such as Medicare, the 40-hour work week, the minimum wage, and Social Security &mdash; <a href='http://www.theatlantic.com/politics/archive/2015/11/bernie-sanders-makes-his-pitch-for-socialism/416913/'>can be considered socialist programs</a>."
 },{
     "question": "... I heard he wants to raise taxes!",
     "answer": 
@@ -24,7 +24,7 @@ var faq = [{
 },{
     "question": "... isn't he too weak on gun control?",
     "answer": 
-        "Hardly &mdash; he has a <a href='http://www.politifact.com/truth-o-meter/statements/2016/jan/20/bernie-s/bernie-sanders-nra-report-card-d-minus-most-recent/'>D- rating</a> from the NRA and <a href='http://votesmart.org/candidate/evaluations/27110/bernie-sanders/37'>consistent high ratings</a> from the Brady Campaign to Prevent Gun Violence.<br><br>" +
+        "Hardly. he has <a href='http://votesmart.org/candidate/evaluations/27110/bernie-sanders/37'>consistent high ratings</a> from the Brady Campaign to Prevent Gun Violence and a <a href='http://www.politifact.com/truth-o-meter/statements/2016/jan/20/bernie-s/bernie-sanders-nra-report-card-d-minus-most-recent/'>D- rating</a> from the NRA.<br><br>" +
         "His position is that <a href='http://thehill.com/blogs/blog-briefing-room/255741-sanders-sees-consensus-for-serious-gun-control'>a broad consensus of common-sense gun control measures</a> is possible if neither side is alienated through overly divisive rhetoric."
 },{
     "question": "... I heard he wants to get rid of Obamacare!",
@@ -34,7 +34,7 @@ var faq = [{
         "Bernie's <a href='https://berniesanders.com/medicareforall/'>Medicare-for-all</a> proposal will do just what it says &mdash; provide coverage for every American citizen, while saving the average American family $2000&mdash;$4000 per year. <a href='http://berniecare.org/'>[Try the calculator!]</a>"
 },{
     "question": "... does he have any experience with foreign policy?",
-    "answer": "While Bernie's main focus is on domestic issues, he has shown remarkable foresight when it comes to foreign policy decisions. He was a member of a small minority voting against the invasion of Iraq in 2003, <a href='https://www.youtube.com/watch?v=NdFw1btbkLM'>making an impassioned speech</a> arguing that overthrowing Saddam Hussein would result in a &quot;disaster&quot;. He was right."
+    "answer": "While Bernie's main focus is on domestic issues, he has shown remarkable foresight when it comes to foreign policy decisions. He was a member of a small minority voting against the War in Iraq in 2003, <a href='https://www.youtube.com/watch?v=NdFw1btbkLM'>arguing in an impassioned speech</a> that overthrowing Saddam Hussein would result in &quot;disaster&quot;. He was right."
 },{
     "question": "... how will he pay for all this?",
     "answer": "Every dollar in Bernie Sanders's proposals is matched by a corresponding dollar raised in revenue &mdash; <a href='https://berniesanders.com/issues/how-bernie-pays-for-his-proposals/'>it's all accounted for</a>. For example, the $75 billion/year College For All plan will be paid for by a <a href='http://www.peri.umass.edu/fileadmin/pdf/ftt/Pollin--Heintz--Memo_on_FTT_Rates_and_Revenue_Potential_w_references----6-9-12.pdf'>tax on Wall Street speculation</a>, while the $100 billion/year Rebuild America Act will be paid for by <a href='http://www.fas.org/sgp/crs/misc/R40623.pdf'>taxing corporate offshore income</a>."
