@@ -16,10 +16,6 @@ $(document).ready(function() {
 			$('html, body').animate({
 				scrollTop: $("html").offset().top
 			}, 500);
-		} else {
-			$('html, body').animate({
-				scrollTop: $(document).height()
-			}, 500);
 		}
 
 		$(".toc-entry.selected").removeClass("selected");
