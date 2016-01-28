@@ -154,3 +154,31 @@ a {
 a:hover {
 	text-decoration: none;
 }
+
+@media (max-width: 800px) {
+	.header {
+		height: 160px;
+	}
+
+	.header-text {
+		padding: 10px;
+	}
+
+	.container {
+		margin: 5px;
+	}
+
+	.table-of-contents {
+		display: none;
+	}
+
+	.question-container, .answer-container {
+		max-width: 80%;
+	}
+
+	.created-by {
+		text-align: center;
+		width: 90%;
+		padding: 10px;
+	}
+}
