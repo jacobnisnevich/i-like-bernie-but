@@ -109,12 +109,13 @@ body {
 	top: 140px;
 	font: 14px "Roboto Slab";
 	width: 15%;
-	padding: 10px;
+	padding: 10px 10px 10px 0px;
 	box-sizing: border-box;
 	color: white;
 	background-color: #087ED7;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
 }
 
 .toc-entry {
@@ -124,7 +125,7 @@ body {
 	cursor: pointer;
 }
 
-.toc-entry:not(.selected):hover {
+.toc-entry:not(.selected, #top, #convinced):hover {
 	border-left: 2px solid rgb(245, 91, 91);
 	margin-left: 1px;
 	color: #DDDDDD;
@@ -142,8 +143,12 @@ body {
 }
 
 #top, #convinced {
-	font: 20px "Roboto";
+	font: 24px "Roboto";
 	font-weight: 100;
+	text-align: center;
+	background-color: #F55B5B;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 .footer {
