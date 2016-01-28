@@ -104,6 +104,27 @@ body {
 	width: 0;
 }
 
+.table-of-contents {
+	position: fixed;
+	top: 140px;
+	font: 14px "Roboto Slab";
+	width: 20%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.toc-entry {
+	margin: 10px 0;
+	padding: 5px;
+}
+
+.toc-entry.selected {
+	background-color: rgb(245, 91, 91);
+	color: rgb(255, 255, 255);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	border-radius: 5px;
+}
+
 .footer {
 	width: 100%;
 	height: 128px;

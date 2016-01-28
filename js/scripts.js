@@ -1,6 +1,16 @@
 $(document).ready(function() {
-	faq.forEach(function(entry) {
-		generateEntry(entry);
+	faq.forEach(function(entry, index) {
+		generateEntry(entry, index);
+	});
+
+	$(".toc-entry").click(function() {
+		var index = this.id.match(/toc-entry-(.*)/)[1];
+		$('html, body').animate({
+			scrollTop: $("#entry-" + index).offset().top - 20
+		}, 500);
+
+		$(".toc-entry.selected").removeClass("selected");
+		$(this).addClass("selected");
 	});
 
 	// $(".question").click(function() {
@@ -9,8 +19,8 @@ $(document).ready(function() {
 	// });
 });
 
-var generateEntry = function(entry) {
-	$(".faq").append("<div class='entry clearfix'>\
+var generateEntry = function(entry, index) {
+	$(".faq").append("<div class='entry clearfix' id='entry-" + index + "'>\
 		<div class='question-container'>\
 			<div class='question'>." + entry.question + "</div>\
 		</div>\
@@ -18,4 +28,6 @@ var generateEntry = function(entry) {
 			<div class='answer'>" + entry.answer + "</div>\
 		</div>\
 	</div>");
+
+	$(".table-of-contents").append("<div class='toc-entry' id='toc-entry-" + index + "'>" + entry.question + "</div>");
 }
