@@ -1,0 +1,41 @@
+"Your anwer (0=false, 1=true) or (1-n for multiple choice)"	Homework 1
+-1	"1.a, invertible?"
+-1	"1.a, Hermitian?"
+-1	"1.a, unitary?"
+-1	"1.b, invertible?"
+-1	"1.b, Hermitian?"
+-1	"1.b, unitary?"
+-1	"1.c, invertible?"
+-1	"1.c, Hermitian?"
+-1	"1.c, unitary?"
+-1	"1.d, invertible?"
+-1	"1.d, Hermitian?"
+-1	"1.d, unitary?"
+-1	2.a
+-1	2.b
+-1	2.c
+-1	2.d
+-1	2.e
+-1	2.f
+-1	2.g
+-1	2.h
+-1	2.i
+-1	2.j
+-1	2.k
+-1	2.l
+-1	2.m
+-1	2.n
+-1	2.o
+-1	2.p
+-1	"3.a, luis(3)?"
+-1	"3.b, puzzle(1:3)"
+-1	"3.c, puzzle((1:3)*2)"
+-1	"3.d, Pascal matrix"
+-1	4.a
+-1	4.b
+-1	4.c
+-1	4.d
+-1	"5.a, What is S?"
+-1	5.b
+-1	5.c
+-1	5.d

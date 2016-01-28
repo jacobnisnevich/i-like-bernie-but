@@ -3,20 +3,39 @@ $(document).ready(function() {
 		generateEntry(entry, index);
 	});
 
+	var followScroll = false;
+
 	$(".toc-entry").click(function() {
-		var index = this.id.match(/toc-entry-(.*)/)[1];
-		$('html, body').animate({
-			scrollTop: $("#entry-" + index).offset().top - 20
-		}, 500);
+		var index = this.id.match(/toc-entry-(.*)/);
+
+		if (index) {
+			$('html, body').animate({
+				scrollTop: $("#entry-" + index[1]).offset().top - 20
+			}, 500);
+		} else if (this.id == "top") {
+			$('html, body').animate({
+				scrollTop: $("html").offset().top
+			}, 500);
+		} else {
+			$('html, body').animate({
+				scrollTop: $(document).height()
+			}, 500);
+		}
 
 		$(".toc-entry.selected").removeClass("selected");
 		$(this).addClass("selected");
 	});
 
-	// $(".question").click(function() {
-	// 	$answerContainer = $($(this).parent().parent().find(".answer-container")[0]);
-	// 	$answerContainer.slideToggle("fast");
-	// });
+	$(document).scroll(function() {
+		if (followScroll) {
+			for (var i = 0; i < faq.length; i++) {
+				if ($(this).scrollTop() >= $("#entry-" + i).position().top + $("#entry-" + i + " .question").height()) {
+					$(".toc-entry.selected").removeClass("selected");
+					$("#toc-entry-" + i).addClass("selected");
+				}
+			}
+		}
+	})
 });
 
 var generateEntry = function(entry, index) {
@@ -29,5 +48,5 @@ var generateEntry = function(entry, index) {
 		</div>\
 	</div>");
 
-	$(".table-of-contents").append("<div class='toc-entry' id='toc-entry-" + index + "'>" + entry.question + "</div>");
+	$(".table-of-contents .questions").append("<div class='toc-entry' id='toc-entry-" + index + "'>" + entry.question + "</div>");
 }
