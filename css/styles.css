@@ -4,6 +4,11 @@ White: rgb(255, 255, 255);
 Blue: rgb(8, 126, 215);
 */
 
+html {
+	background: url("../img/bernie-sanders.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
 body {
 	margin: 0;
 }
@@ -158,7 +163,11 @@ body {
 
 .footer {
 	width: 100%;
-	height: 128px;
+	height: 200px;
+	padding: 50px;
+	background-color: #087ED7;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	box-sizing: border-box;
 }
 
 .created-by {
@@ -166,7 +175,8 @@ body {
 	font: 24px "Roboto";
 	font-weight: 200;
 	width: 300px;
-	border: 1px solid black;
+	border: 1px solid white;
+	color: white;
 	padding: 10px 40px;
 }
 
@@ -174,7 +184,7 @@ body {
 	margin: 10px auto;
 	width: 262.5px;
 	height: 35.25px;
-	background-image: url("../img/billionaires.svg");
+	background-image: url("../img/billionaires_white.svg");
 	background-size: 100%;
 }
 
