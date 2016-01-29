@@ -3,7 +3,7 @@ $(document).ready(function() {
 		generateEntry(entry, index);
 	});
 
-	var followScroll = false;
+	var followScroll = true;
 
 	$(".toc-entry").click(function() {
 		var index = this.id.match(/toc-entry-(.*)/);
@@ -37,12 +37,14 @@ $(document).ready(function() {
 var generateEntry = function(entry, index) {
 	$(".faq").append("<div class='entry clearfix' id='entry-" + index + "'>\
 		<div class='question-container'>\
-			<div class='question'>." + entry.question + "</div>\
+			<div class='question'>" + entry.question + "</div>\
 		</div>\
 		<div class='answer-container'>\
 			<div class='answer'>" + entry.answer + "</div>\
 		</div>\
 	</div>");
 
-	$(".table-of-contents .questions").append("<div class='toc-entry' id='toc-entry-" + index + "'>" + entry.question + "</div>");
+	if (entry.question.indexOf("learn more") < 0) {
+		$(".table-of-contents .questions").append("<div class='toc-entry' id='toc-entry-" + index + "'>" + entry.question + "</div>");
+	}
 }
