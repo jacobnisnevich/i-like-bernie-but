@@ -24,7 +24,7 @@ var faq = [{
 },{
     "question": "... isn't he too weak on gun control?",
     "answer": 
-        "Hardly. he has <a href='http://votesmart.org/candidate/evaluations/27110/bernie-sanders/37'>consistent high ratings</a> from the Brady Campaign to Prevent Gun Violence and a <a href='http://www.politifact.com/truth-o-meter/statements/2016/jan/20/bernie-s/bernie-sanders-nra-report-card-d-minus-most-recent/'>D- rating</a> from the NRA.<br><br>" +
+        "Hardly. He has <a href='http://votesmart.org/candidate/evaluations/27110/bernie-sanders/37'>consistent high ratings</a> from the Brady Campaign to Prevent Gun Violence and a <a href='http://www.politifact.com/truth-o-meter/statements/2016/jan/20/bernie-s/bernie-sanders-nra-report-card-d-minus-most-recent/'>D- rating</a> from the NRA.<br><br>" +
         "His position is that <a href='http://thehill.com/blogs/blog-briefing-room/255741-sanders-sees-consensus-for-serious-gun-control'>a broad consensus of common-sense gun control measures</a> is possible if neither side is alienated through overly divisive rhetoric."
 },{
     "question": "... I heard he wants to get rid of Obamacare!",
@@ -49,6 +49,6 @@ var faq = [{
 }, {
     "question": "Hmm, these are some good points, but I'm still unconvinced. Where can I learn more?",
     "answer": 
-        "To learn more about Bernie Sanders's positions on more than 50 different issue, check out <a href='http://feelthebern.org'>FeelTheBern.org</a>.<br><br>" +
+        "To learn more about Bernie Sanders's positions on more than 50 different issues, check out <a href='http://feelthebern.org'>FeelTheBern.org</a>.<br><br>" +
         "You can also watch Robert Reich challenge these critiques of Bernie much better than I can <a href='https://www.youtube.com/watch?v=VfIhonVoFSg'>in his recent video</a>."
 }];
