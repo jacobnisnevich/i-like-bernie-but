@@ -165,6 +165,10 @@ body {
 	text-decoration: none;
 }
 
+.convinced-button, .created-by {
+	cursor: pointer;
+}
+
 .footer {
 	width: 100%;
 	height: 200px;

@@ -32,6 +32,14 @@ $(document).ready(function() {
 			}
 		}
 	})
+
+	$(".created-by").click(function() {
+		window.open("https://github.com/jacobnisnevich/i-like-bernie-but", "_blank");
+	});
+
+	$(".convinced-button").click(function() {
+		window.open("http://berniesanders.com", "_blank");
+	});
 });
 
 var generateEntry = function(entry, index) {
