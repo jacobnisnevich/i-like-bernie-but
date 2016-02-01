@@ -25,7 +25,7 @@ $(document).ready(function() {
 	$(document).scroll(function() {
 		if (followScroll) {
 			for (var i = 0; i < faq.length; i++) {
-				if ($(this).scrollTop() >= $("#entry-" + i).position().top + $("#entry-" + i - 1 + " .question").height()) {
+				if ($(this).scrollTop() >= $("#entry-" + i).position().top + $("#entry-" + i - 1 + " .question").height() - 70) {
 					$(".toc-entry.selected").removeClass("selected");
 					$("#toc-entry-" + i).addClass("selected");
 				}
