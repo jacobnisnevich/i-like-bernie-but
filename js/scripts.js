@@ -25,11 +25,18 @@ $(document).ready(function() {
 	$(document).scroll(function() {
 		if (followScroll) {
 			for (var i = 0; i < faq.length; i++) {
-				if ($(this).scrollTop() >= $("#entry-" + i).position().top + $("#entry-" + i + " .question").height()) {
+				if ($(this).scrollTop() >= $("#entry-" + i).position().top + $("#entry-" + i - 1 + " .question").height() - 70) {
 					$(".toc-entry.selected").removeClass("selected");
 					$("#toc-entry-" + i).addClass("selected");
 				}
 			}
+		}
+
+		if ($(this).scrollTop() < $(".header").height()) {
+			$(".table-of-contents").css("top", $(".header").height() - $(this).scrollTop() + 20 + "px");
+		}
+		else if ($(".table-of-contents").css("top") !== "20px") {
+			$(".table-of-contents").css("top", "20px");
 		}
 	})
 
