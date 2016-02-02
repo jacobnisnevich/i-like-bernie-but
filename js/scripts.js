@@ -38,6 +38,13 @@ $(document).ready(function() {
 		else if ($(".table-of-contents").css("top") !== "20px") {
 			$(".table-of-contents").css("top", "20px");
 		}
+
+		if ($(this).scrollTop() > $(".footer").position().top - $(window).height()) {
+			$(".share-controls").css("bottom", $(window).height() + $(this).scrollTop() - $(".footer").position().top + 20 + "px");
+		}
+		else if ($(".share-controls").css("bottom") !== "20px") {
+			$(".share-controls").css("bottom", "20px");
+		}
 	})
 
 	$(".created-by").click(function() {

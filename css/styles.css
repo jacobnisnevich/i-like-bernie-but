@@ -170,6 +170,15 @@ body {
 	cursor: pointer;
 }
 
+.share-controls {
+	width: 100%;
+	max-width: 100px;
+	position: fixed;
+	bottom: 20px;
+	right: 50px;
+	text-align: center;
+}
+
 .footer {
 	width: 100%;
 	height: 200px;
@@ -177,6 +186,8 @@ body {
 	background-color: #087ED7;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
 	box-sizing: border-box;
+	position: relative;
+	z-index: 2;
 }
 
 .created-by {
