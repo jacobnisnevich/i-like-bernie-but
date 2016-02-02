@@ -172,11 +172,20 @@ body {
 
 .footer {
 	width: 100%;
-	height: 200px;
+	height: 234px;
 	padding: 50px;
 	background-color: #087ED7;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
 	box-sizing: border-box;
+}
+
+.share-buttons {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.share-buttons img {
+	width: 48px;
 }
 
 .created-by {
