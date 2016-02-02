@@ -31,6 +31,13 @@ $(document).ready(function() {
 				}
 			}
 		}
+
+		if ($(this).scrollTop() < $(".header").height()) {
+			$(".table-of-contents").css("top", $(".header").height() - $(this).scrollTop() + 20 + "px");
+		}
+		else if ($(".table-of-contents").css("top") !== "20px") {
+			$(".table-of-contents").css("top", "20px");
+		}
 	})
 
 	$(".created-by").click(function() {
