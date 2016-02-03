@@ -74,7 +74,6 @@ if (window.location.hash) {
 	// Scroll to pre-selected question
 	setTimeout(function(){
 		var entryClass = window.location.hash.replace(/#/g,'').replace(/\?/g,'');
-		console.log(entryClass);
 		$("div[data-question=" + entryClass + "]").click();
 	}, 300);
 };
