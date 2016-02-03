@@ -20,6 +20,7 @@ $(document).ready(function() {
 
 		$(".toc-entry.selected").removeClass("selected");
 		$(this).addClass("selected");
+		window.location.hash = $(this).data("question") + "?";
 	});
 
 	$(document).scroll(function() {
@@ -58,7 +59,7 @@ $(document).ready(function() {
 				.removeClass('display-inline');
 			$(".table-of-contents").css("left", 0);
 		}
-	})
+	});
 
 	$(".created-by").click(function() {
 		window.open("https://github.com/jacobnisnevich/i-like-bernie-but", "_blank");
@@ -68,6 +69,15 @@ $(document).ready(function() {
 		window.open("http://berniesanders.com", "_blank");
 	});
 });
+
+if (window.location.hash) {
+	// Scroll to pre-selected question
+	setTimeout(function(){
+		var entryClass = window.location.hash.replace(/#/g,'').replace(/\?/g,'');
+		console.log(entryClass);
+		$("div[data-question=" + entryClass + "]").click();
+	}, 300);
+};
 
 var generateEntry = function(entry, index) {
 	$(".faq").append("<div class='entry clearfix' id='entry-" + index + "'>\
@@ -80,6 +90,6 @@ var generateEntry = function(entry, index) {
 	</div>");
 
 	if (entry.question.indexOf("learn more") < 0) {
-		$(".table-of-contents .questions").append("<div class='toc-entry' id='toc-entry-" + index + "'>" + entry.question + "</div>");
-	}
+		$(".table-of-contents .questions").append("<div class='toc-entry' id='toc-entry-" + index + "' data-question='" + entry.id + "'>" + entry.question + "</div>");
+	}	
 }
