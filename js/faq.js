@@ -12,7 +12,7 @@ var faq = [{
         "If you're one of the 0.6% of Americans making more than $500,000 a year, your marginal rate will go up from 39.6% to 43%. Above $2,000,000 the rate will be 48%, and above $10,000,000 the rate will be 52%. These are tax increases that will only affect the very, <i>very</i> wealthy.<br><br>" +
         "On the other hand, the vast majority of Americans <a href='http://datatitian.com/bernie-tax/'>will see significant savings</a> when factoring in tax and healthcare changes under Bernie's plans."
 },{
-    "id": "is-he-electable?",
+    "id": "is-he-electable",
     "question": "... is he even electable",
     "answer": 
         "Absolutely. Bernie probably has a better chance in the general election than Hillary would have:<br><br>" +
