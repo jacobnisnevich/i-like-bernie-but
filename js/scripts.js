@@ -39,12 +39,22 @@ $(document).ready(function() {
 			$(".table-of-contents").css("top", "20px");
 		}
 
-		if ($(this).scrollTop() > $(".footer").position().top - $(window).height() + 90) {
-			$(".share-controls").css("bottom", $(window).height() + $(this).scrollTop() - $(".footer").position().top - 70 + "px");
-			$(".share-controls").css("right", $(window).width()/2 - $(".share-controls").width()/2 + "px");
+		if ($(this).scrollTop() > $(".footer").position().top - $(window).height() + 110) {
+			$(".share-controls").css({
+					bottom: $(window).height() + $(this).scrollTop() - $(".footer").position().top - 90 + "px",
+					right: $(window).width()/2 - $(".share-controls").width()/2 + "px",
+					zIndex: 1
+				});
+			$(".table-of-contents").css("left", 10 - $(".table-of-contents").width() + "px");
+
 		}
 		else if ($(".share-controls").css("bottom") !== "20px") {
-			$(".share-controls").css("bottom", "20px").css("right", "20px");
+			$(".share-controls").css({
+					bottom: "20px",
+					right: "20px",
+					zIndex: 0
+				});
+			$(".table-of-contents").css("left", 0);
 		}
 	})
 

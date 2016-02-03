@@ -113,6 +113,7 @@ body {
 .table-of-contents {
 	position: fixed;
 	top: 130px;
+	left: 0;
 	font: 14px "Roboto Slab";
 	width: 15%;
 	padding: 10px 10px 10px 0px;
@@ -122,6 +123,12 @@ body {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	z-index: 2;
+	transition: left 0.3s ease;
+}
+
+.table-of-contents:hover {
+	left: 0 !important;
 }
 
 .questions {
@@ -178,8 +185,7 @@ body {
 	bottom: 20px;
 	right: 20px;
 	text-align: center;
-	z-index: 3;
-	transition: right 0.2s ease;
+	z-index: 0;
 }
 
 .share-controls img {
@@ -196,12 +202,12 @@ body {
 .footer {
 	width: 100%;
 	height: 275px;
-	padding: 100px 50px 50px 50px;
+	padding: 120px 50px 50px 50px;
 	background-color: #087ED7;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
 	box-sizing: border-box;
 	position: relative;
-	z-index: 2;
+	z-index: 1;
 }
 
 .created-by {
