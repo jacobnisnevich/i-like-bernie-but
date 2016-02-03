@@ -117,8 +117,8 @@ body {
 	width: 15%;
 	padding: 10px 10px 10px 0px;
 	box-sizing: border-box;
-	color: white;
-	background-color: #087ED7;
+	color: #087ED7;
+	background-color: rgb(245, 245, 245);
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
@@ -135,10 +135,10 @@ body {
 	cursor: pointer;
 }
 
-.toc-entry:not(.selected):hover {
-	border-left: 2px solid rgb(245, 91, 91);
-	margin-left: 1px;
-	color: #DDDDDD;
+.toc-entry:hover {
+	background-color: rgba(255,255,255,0.9);
+	color: rgb(30, 30, 30);
+	font-weight: bold;
 	transition: 0.2s all ease;
 }
 
@@ -160,6 +160,7 @@ body {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	margin: 0;
+	color: white;
 }
 
 #convinced a, #big-convinced a {
