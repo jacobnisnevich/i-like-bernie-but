@@ -44,7 +44,8 @@ $(document).ready(function() {
 					bottom: $(window).height() + $(this).scrollTop() - $(".footer").position().top - 90 + "px",
 					right: $(window).width()/2 - $(".share-controls").width()/2 + "px",
 					zIndex: 1
-				});
+				})
+				.addClass('display-inline');
 			$(".table-of-contents").css("left", 10 - $(".table-of-contents").width() + "px");
 
 		}
@@ -53,7 +54,8 @@ $(document).ready(function() {
 					bottom: "20px",
 					right: "20px",
 					zIndex: 0
-				});
+				})
+				.removeClass('display-inline');
 			$(".table-of-contents").css("left", 0);
 		}
 	})
