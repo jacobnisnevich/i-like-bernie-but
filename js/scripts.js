@@ -39,11 +39,12 @@ $(document).ready(function() {
 			$(".table-of-contents").css("top", "20px");
 		}
 
-		if ($(this).scrollTop() > $(".footer").position().top - $(window).height()) {
-			$(".share-controls").css("bottom", $(window).height() + $(this).scrollTop() - $(".footer").position().top + 20 + "px");
+		if ($(this).scrollTop() > $(".footer").position().top - $(window).height() + 90) {
+			$(".share-controls").css("bottom", $(window).height() + $(this).scrollTop() - $(".footer").position().top - 70 + "px");
+			$(".share-controls").css("right", $(window).width()/2 - $(".share-controls").width()/2 + "px");
 		}
 		else if ($(".share-controls").css("bottom") !== "20px") {
-			$(".share-controls").css("bottom", "20px");
+			$(".share-controls").css("bottom", "20px").css("right", "20px");
 		}
 	})
 
