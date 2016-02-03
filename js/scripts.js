@@ -50,7 +50,7 @@ $(document).ready(function() {
   var wow = new WOW({
     boxClass: 'wow', // default
     animateClass: 'animated', // default
-    offset: 0, // default
+    offset: 100, // default
     mobile: false,
     live: true // default
   });
@@ -60,10 +60,10 @@ $(document).ready(function() {
 
 var generateEntry = function(entry, index) {
   $(".faq").append("<div class='entry clearfix' id='entry-" + index + "'>\
-		<div class='question-container wow fadeInLeft'>\
+		<div class='question-container wow fadeIn'>\
 			<div class='question'>" + entry.question + "</div>\
 		</div>\
-		<div class='answer-container wow fadeInRight'>\
+		<div class='answer-container wow fadeIn'>\
 			<div class='answer'>" + entry.answer + "</div>\
 		</div>\
 	</div>");
