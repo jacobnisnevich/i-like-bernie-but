@@ -113,15 +113,22 @@ body {
 .table-of-contents {
 	position: fixed;
 	top: 130px;
+	left: 0;
 	font: 14px "Roboto Slab";
 	width: 15%;
 	padding: 10px 10px 10px 0px;
 	box-sizing: border-box;
-	color: white;
-	background-color: #087ED7;
+	color: #087ED7;
+	background-color: rgb(245, 245, 245);
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	z-index: 2;
+	transition: left 0.3s ease;
+}
+
+.table-of-contents:hover {
+	left: 0 !important;
 }
 
 .questions {
@@ -135,10 +142,10 @@ body {
 	cursor: pointer;
 }
 
-.toc-entry:not(.selected):hover {
-	border-left: 2px solid rgb(245, 91, 91);
-	margin-left: 1px;
-	color: #DDDDDD;
+.toc-entry:hover {
+	background-color: rgba(255,255,255,0.9);
+	color: rgb(30, 30, 30);
+	font-weight: bold;
 	transition: 0.2s all ease;
 }
 
@@ -160,6 +167,7 @@ body {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	margin: 0;
+	color: white;
 }
 
 #convinced a, #big-convinced a {
@@ -170,26 +178,36 @@ body {
 	cursor: pointer;
 }
 
+.share-controls {
+	width: 100%;
+	max-width: 200px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	text-align: center;
+	z-index: 0;
+}
+
+.share-controls img {
+	width: 48px;
+	border-radius: 50%;
+	padding: 0;
+}
+
+.share-controls img:hover {
+	background-color: rgb(8, 126, 215);
+	background-size: 50%, 25%, 25%;
+}
+
 .footer {
 	width: 100%;
 	height: 275px;
-	padding: 50px;
+	padding: 120px 50px 50px 50px;
 	background-color: #087ED7;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
 	box-sizing: border-box;
-}
-
-.share-buttons {
-	margin-bottom: 25px;
-	text-align: center;
-}
-
-.share-buttons img {
-	width: 48px;
-}
-
-.share-buttons a:not(:last-child) {
-	margin-right: 10px;
+	position: relative;
+	z-index: 1;
 }
 
 .created-by {
@@ -235,6 +253,10 @@ a:hover {
 	text-decoration: none;
 }
 
+.display-inline {
+	display: inline !important;
+}
+
 @media (max-width: 800px) {
 	.header {
 		height: 160px;
@@ -254,6 +276,10 @@ a:hover {
 
 	.question-container, .answer-container {
 		max-width: 80%;
+	}
+
+	.share-controls {
+		display: none;
 	}
 
 	.created-by {

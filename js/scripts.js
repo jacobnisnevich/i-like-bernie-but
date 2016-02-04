@@ -20,6 +20,7 @@ $(document).ready(function() {
 
 		$(".toc-entry.selected").removeClass("selected");
 		$(this).addClass("selected");
+		window.location.hash = $(this).data("question") + "?";
 	});
 
 	$(document).scroll(function() {
@@ -38,7 +39,27 @@ $(document).ready(function() {
 		else if ($(".table-of-contents").css("top") !== "20px") {
 			$(".table-of-contents").css("top", "20px");
 		}
-	})
+
+		if ($(this).scrollTop() > $(".footer").position().top - $(window).height() + 110) {
+			$(".share-controls").css({
+					bottom: $(window).height() + $(this).scrollTop() - $(".footer").position().top - 90 + "px",
+					right: $(window).width()/2 - $(".share-controls").width()/2 + "px",
+					zIndex: 1
+				})
+				.addClass('display-inline');
+			$(".table-of-contents").css("left", 10 - $(".table-of-contents").width() + "px");
+
+		}
+		else if ($(".share-controls").css("bottom") !== "20px") {
+			$(".share-controls").css({
+					bottom: "20px",
+					right: "20px",
+					zIndex: 0
+				})
+				.removeClass('display-inline');
+			$(".table-of-contents").css("left", 0);
+		}
+	});
 
 	$(".created-by").click(function() {
 		window.open("https://github.com/jacobnisnevich/i-like-bernie-but", "_blank");
@@ -48,6 +69,14 @@ $(document).ready(function() {
 		window.open("http://berniesanders.com", "_blank");
 	});
 });
+
+if (window.location.hash) {
+	// Scroll to pre-selected question
+	setTimeout(function(){
+		var entryClass = window.location.hash.replace(/#/g,'').replace(/\?/g,'');
+		$("div[data-question=" + entryClass + "]").click();
+	}, 300);
+};
 
 var generateEntry = function(entry, index) {
 	$(".faq").append("<div class='entry clearfix' id='entry-" + index + "'>\
@@ -60,6 +89,6 @@ var generateEntry = function(entry, index) {
 	</div>");
 
 	if (entry.question.indexOf("learn more") < 0) {
-		$(".table-of-contents .questions").append("<div class='toc-entry' id='toc-entry-" + index + "'>" + entry.question + "</div>");
-	}
+		$(".table-of-contents .questions").append("<div class='toc-entry' id='toc-entry-" + index + "' data-question='" + entry.id + "'>" + entry.question + "</div>");
+	}	
 }
