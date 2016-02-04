@@ -73,6 +73,16 @@ $(document).ready(function() {
 	$(".convinced-button").click(function() {
 		window.open("http://berniesanders.com", "_blank");
 	});
+
+	var wow = new WOW({
+    boxClass: 'wow', // default
+    animateClass: 'animated', // default
+    offset: 0, // default
+    mobile: true,
+    live: true // default
+  });
+
+	wow.init();
 });
 
 if (window.location.hash) {
@@ -85,10 +95,10 @@ if (window.location.hash) {
 
 var generateEntry = function(entry, index) {
 	$(".faq").append("<div class='entry clearfix' id='entry-" + index + "'>\
-		<div class='question-container'>\
+		<div class='question-container wow fadeIn'>\
 			<div class='question'>" + entry.question + "</div>\
 		</div>\
-		<div class='answer-container'>\
+		<div class='answer-container wow fadeIn'>\
 			<div class='answer'>" + entry.answer + "</div>\
 		</div>\
 	</div>");
