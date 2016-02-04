@@ -20,7 +20,12 @@ $(document).ready(function() {
 
 		$(".toc-entry.selected").removeClass("selected");
 		$(this).addClass("selected");
-		window.location.hash = $(this).data("question") + "?";
+
+		if (index) {
+			window.location.hash = $(this).data("question") + "?";
+		} else {
+			window.location.hash = "";
+		}
 	});
 
 	$(document).scroll(function() {
