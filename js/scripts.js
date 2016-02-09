@@ -9,6 +9,7 @@ $(document).ready(function() {
 	$.getJSON("https://api.ipify.org?format=json", function(data) {
 		var ipLookup = "http://api.ipinfodb.com/v3/ip-city/?key=" + ipInfoApiKey + "&ip=" + data.ip + "&format=json"
 		$.getJSON(ipLookup, function(data) {
+			alert(data.regionName);
 			if (data.regionName == "New Hampshire") {
 				$("#new-hampshire-message").show();
 			}

@@ -39,6 +39,10 @@ body {
 	z-index: 4;
 }
 
+#new-hampshire-message .small {
+	font-size: 0.6em;
+}
+
 #close-message {
 	font: 30px "Roboto", sans-serif;
 	color: white;
@@ -58,7 +62,7 @@ body {
 
 #gray-screen {
 	background-color: #666;
-	opacity: 0.5;
+	opacity: 0.7;
 	position: absolute;
 	top: 0;
 	left: 0;
