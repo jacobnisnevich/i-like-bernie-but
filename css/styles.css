@@ -29,6 +29,7 @@ body {
 }
 
 #new-hampshire-message {
+	display: none;
 	position: absolute;
 	margin: 0 auto;
 	background-color: rgb(245, 91, 91);
@@ -61,6 +62,7 @@ body {
 }
 
 #gray-screen {
+	display: none;
 	background-color: #666;
 	opacity: 0.7;
 	position: absolute;
