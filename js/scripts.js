@@ -4,6 +4,21 @@ $(document).ready(function() {
 	});
 
 	var followScroll = true;
+	var ipInfoApiKey = "9e5d5cef52a748a4342915d7f9e6517c60e2eca0baf5f111ff9eaef78ae358fe";
+
+	$.getJSON("https://api.ipify.org?format=json", function(data) {
+		var ipLookup = "http://api.ipinfodb.com/v3/ip-city/?key=" + ipInfoApiKey + "&ip=" + data.ip + "&format=json"
+		$.getJSON(ipLookup, function(data) {
+			if (data.regionName == "New Hampshire") {
+				$("#new-hampshire-message").show();
+			}
+		});
+	});
+
+	$("#close-message").click(function() {
+		$("#new-hampshire-message").fadeOut(200);
+		$("#gray-screen").fadeOut(200);
+	});
 
 	$(".toc-entry").click(function() {
 		var index = this.id.match(/toc-entry-(.*)/);
