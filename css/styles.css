@@ -307,6 +307,10 @@ a:hover {
 	display: inline !important;
 }
 
+#bernrate {
+	display: none;
+}
+
 @media (max-width: 800px) {
 	.header {
 		height: 160px;
