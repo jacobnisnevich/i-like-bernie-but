@@ -19,15 +19,15 @@
 
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/faq.js"></script>
+	<script src="js/messages.js"></script>
 	<script src="js/scripts.js"></script>
 </head>
 <body>
-	<div id="new-hampshire-message" class="shadow">
+	<div id="message" class="shadow">
 		<div id="close-message">x</div>
 		<div id="message-text">
-			Looks like you're in <b>New Hampshire</b>.<br>
-			Don't forget to vote today - <b>every single vote</b> makes a difference in this race!
-			<div class="small">[<a href="http://app.sos.nh.gov/Public/PollingPlaceSearch.aspx">Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href="http://voteforbernie.org/state/new-hampshire/">Not sure if you're eligible to vote?</a>]</div>
+			Looks like you're in <b><span id="message-state"></span></b>.<br>
+			<div id="message-custom-text"></div>
 		</div>
 	</div>
 	<div id="gray-screen"></div>

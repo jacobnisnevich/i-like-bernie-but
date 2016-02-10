@@ -28,7 +28,8 @@ body {
 	clear: both;
 }
 
-#new-hampshire-message {
+#message {
+	width: 70%;
 	display: none;
 	position: absolute;
 	margin: 0 auto;
@@ -40,7 +41,7 @@ body {
 	z-index: 4;
 }
 
-#new-hampshire-message .small {
+#message .small {
 	font-size: 0.6em;
 }
 
@@ -55,10 +56,14 @@ body {
 }
 
 #message-text {
-	font: 30px "Roboto Slab", serif;
-	padding: 30px;
+	font: 24px "Roboto Slab", serif;
+	padding: 34px;
 	text-align: center;
 	color: white;
+}
+
+#message-custom-text {
+	margin-top: 12px;
 }
 
 #gray-screen {

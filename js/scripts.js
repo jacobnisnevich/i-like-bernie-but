@@ -1,3 +1,18 @@
+function displayAnyMessagesForState(state) {
+	if (messages[state]) {
+		// any messages with deadlines within 2 days from now?
+		messages[state].forEach(function (message) {
+			if (Date.now() < message.deadline.getTime() && message.deadline.getTime() - Date.now() < 1000*60*60*24*2) {
+				$("#message-state").text(state);
+				$("#message-custom-text").html(message.text);
+				$("#message").show();
+				$("#gray-screen").show();
+				ga('send', 'event', 'Message', 'show', state);
+			}
+		});
+	}
+}
+
 $(document).ready(function() {
 	faq.forEach(function(entry, index) {
 		generateEntry(entry, index);
@@ -9,15 +24,12 @@ $(document).ready(function() {
 	$.getJSON("https://api.ipify.org?format=json", function(data) {
 		var ipLookup = "http://api.ipinfodb.com/v3/ip-city/?key=" + ipInfoApiKey + "&ip=" + data.ip + "&format=json"
 		$.getJSON(ipLookup, function(data) {
-			if (data.regionName == "New Hampshire") {
-				$("#new-hampshire-message").show();
-				$("#gray-screen").show();
-			}
+			displayAnyMessagesForState(data.regionName);
 		});
 	});
 
 	$("#close-message").click(function() {
-		$("#new-hampshire-message").fadeOut(200);
+		$("#message").fadeOut(200);
 		$("#gray-screen").fadeOut(200);
 	});
 
