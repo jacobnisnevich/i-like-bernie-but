@@ -7,6 +7,7 @@ function displayAnyMessagesForState(state) {
 				$("#message-custom-text").html(message.text);
 				$("#message").show();
 				$("#gray-screen").show();
+				ga('send', 'event', 'Message', 'show', state);
 			}
 		});
 	}
