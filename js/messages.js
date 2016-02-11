@@ -22,7 +22,7 @@ var messages = {
   ],
   "Florida": [
     {
-      startTime: new Date('February 9, 2016 23:59:59 GMT-0600'),
+      startTime: new Date('February 13, 2016 23:59:59 GMT-0600'),
       deadline: new Date('February 16, 2016 23:59:59 GMT-0600'),
       text: "<b>Monday, February 16</b> is your deadline to register to vote! In Florida, you <b>must be registered as a Democrat</b> to vote in the Democratic primary. Florida doesn't have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in.<div class='small'>[<a href='http://registration.elections.myflorida.com/CheckVoterStatus'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/florida/'>More info</a>]</div>"
     }
