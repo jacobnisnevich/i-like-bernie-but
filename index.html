@@ -74,7 +74,7 @@
 		* using 'navigator.sendBeacon' in browser that support it.
 		*/
 		var trackOutboundLink = function(url) {
-		   ga('send', 'event', 'outbound', 'click', url, {
+		   ga('send', 'event', 'Outbound', 'click', url, {
 		     'transport': 'beacon',
 		     'hitCallback': function(){document.location = url;}
 		   });
