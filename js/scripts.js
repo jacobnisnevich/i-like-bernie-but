@@ -2,7 +2,7 @@ function displayAnyMessagesForState(state) {
 	if (messages[state]) {
 		// any messages with deadlines within 2 days from now?
 		messages[state].forEach(function (message) {
-			if (Date.now() < message.deadline.getTime() && message.deadline.getTime() - Date.now() < 1000*60*60*24*2) {
+			if (Date.now() < message.deadline.getTime() && Date.now() > message.startTime.getTime()) {
 				$("#message-state").text(state);
 				$("#message-custom-text").html(message.text);
 				$("#message").show();
