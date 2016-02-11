@@ -101,6 +101,11 @@ $(document).ready(function() {
 	$(".convinced-button").click(function() {
 		window.open("http://berniesanders.com", "_blank");
 	});
+
+	$("a").click(function() {
+		trackOutboundLink($(this).attr("href"));
+		return true;
+	});
 });
 
 if (window.location.hash) {
