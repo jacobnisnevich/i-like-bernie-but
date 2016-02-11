@@ -5,8 +5,15 @@ function displayAnyMessagesForState(state) {
 			if (Date.now() < message.deadline.getTime() && Date.now() > message.startTime.getTime()) {
 				$("#message-state").text(state);
 				$("#message-custom-text").html(message.text);
+
+				$("#message-custom-text a").click(function() {
+					trackOutboundLink($(this).attr("href"));
+					return true;
+				});
+
 				$("#message").show();
 				$("#gray-screen").show();
+				
 				ga('send', 'event', 'Message', 'show', state);
 			}
 		});

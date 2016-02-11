@@ -15,9 +15,16 @@ var messages = {
   ],
   "Alabama": [
     {
-      startTime: new Date('February 13, 2016 23:59:59 GMT-0500'),
+      startTime: new Date('February 12, 2016 23:59:59 GMT-0500'),
       deadline: new Date('February 15, 2016 23:59:59 GMT-0500'),
       text: "<b>Monday, February 15</b> is your deadline to register to vote! You can be registered under any party to vote in the Democratic primary, but just make sure that you're registered by Monday.<div class='small'>[<a href='https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;<b>[<a href='https://www.alabamavotes.gov/olvr/default.aspx'>Register online!</a>]</b>&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/alabama/'>More info</a>]</div>"
+    }
+  ],
+  "Ohio": [
+    {
+      startTime: new Date('February 13, 2016 23:59:59 GMT-0600'),
+      deadline: new Date('February 16, 2016 23:59:59 GMT-0600'),
+      text: "<b>Monday, February 16</b> is your deadline to register to vote! Ohio does not have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in.<div class='small'>[<a href='http://voterlookup.sos.state.oh.us/voterlookup.aspx'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/ohio/'>More info</a>]</div>"
     }
   ]
 }
