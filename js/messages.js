@@ -8,15 +8,22 @@ var messages = {
   ],
   "Florida": [
     {
-      startTime: new Date('February 13, 2016 23:59:59 GMT-0500'),
+      startTime: new Date('February 12, 2016 23:59:59 GMT-0500'),
       deadline: new Date('February 16, 2016 23:59:59 GMT-0500'),
       text: "<b>Tuesday, February 16</b> is your deadline to register to vote! In Florida, you <b>must be registered as a Democrat</b> to vote in the Democratic primary. Florida doesn't have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in.<div class='small'>[<a href='http://registration.elections.myflorida.com/CheckVoterStatus'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/florida/'>More info</a>]</div>"
     }
   ],
+  "Maine": [
+    {
+      startTime: new Date('February 15, 2016 23:59:59 GMT-0500'),
+      deadline: new Date('February 19, 2016 23:59:59 GMT-0500'),
+      text: "If you're registered to vote as a <i>Republican</i>, <b>Wednesday, February 19</b> is your deadline to re-register as a Democrat to vote in the March 6 caucus! Maine doesn't have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in. <div class='small'>[<a href='http://www.maine.gov/portal/government/edemocracy/voter_lookup.php'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/maine/'>More info</a>]</div>"
+    }
+  ],
   "Massachusetts": [
     {
-      startTime: new Date('February 8, 2016 20:00:00 GMT-0800'),
-      deadline: new Date('February 10, 2016 20:00:00 GMT-0800'),
+      startTime: new Date('February 8, 2016 20:00:00 GMT-0500'),
+      deadline: new Date('February 10, 2016 20:00:00 GMT-0500'),
       text: "Did you know that you <a href='http://voteforbernie.org/state/massachusetts/'>must be registered as a Democrat or an Undeclared</a> in order to vote in the MA Democratic primary? <b>Today (2/10)</b> is the last day to register, and if you're a Republican or Independent you <i>must</i> do this if you want to vote for Bernie! Registration is easy and you can even <a href='https://www.sec.state.ma.us/OVR/'>do it online</a>."
     }
   ],
@@ -43,7 +50,7 @@ var messages = {
   ],
   "Ohio": [
     {
-      startTime: new Date('February 13, 2016 23:59:59 GMT-0600'),
+      startTime: new Date('February 12, 2016 23:59:59 GMT-0600'),
       deadline: new Date('February 16, 2016 23:59:59 GMT-0600'),
       text: "<b>Tuesday, February 16</b> is your deadline to register to vote! Ohio does not have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in.<div class='small'>[<a href='http://voterlookup.sos.state.oh.us/voterlookup.aspx'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/ohio/'>More info</a>]</div>"
     }
