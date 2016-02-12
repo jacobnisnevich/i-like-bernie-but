@@ -102,10 +102,12 @@ $(document).ready(function() {
 	});
 
 	$(".created-by").click(function() {
+		trackOutboundLink("https://github.com/jacobnisnevich/i-like-bernie-but");
 		window.open("https://github.com/jacobnisnevich/i-like-bernie-but", "_blank");
 	});
 
 	$(".convinced-button").click(function() {
+		trackOutboundLink("http://berniesanders.com");
 		window.open("http://berniesanders.com", "_blank");
 	});
 
