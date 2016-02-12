@@ -7,7 +7,7 @@ function displayAnyMessagesForState(state) {
 				$("#message-custom-text").html(message.text);
 
 				$("#message-custom-text a").click(function() {
-					trackOutboundLink($(this).attr("href"));
+					ga('send', 'event', 'Message Outbound', 'click', state + ":" + $(this).attr("href"));
 					return true;
 				});
 
@@ -102,17 +102,17 @@ $(document).ready(function() {
 	});
 
 	$(".created-by").click(function() {
-		trackOutboundLink("https://github.com/jacobnisnevich/i-like-bernie-but");
+		ga('send', 'event', 'Outbound', 'click', "https://github.com/jacobnisnevich/i-like-bernie-but");
 		window.open("https://github.com/jacobnisnevich/i-like-bernie-but", "_blank");
 	});
 
 	$(".convinced-button").click(function() {
-		trackOutboundLink("http://berniesanders.com");
+		ga('send', 'event', 'Convinced', 'click', "http://berniesanders.com");
 		window.open("http://berniesanders.com", "_blank");
 	});
 
 	$("a").click(function() {
-		trackOutboundLink($(this).attr("href"));
+		ga('send', 'event', 'Outbound', 'click', $(this).attr("href"));
 		return true;
 	});
 });

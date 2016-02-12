@@ -47,5 +47,12 @@ var messages = {
       deadline: new Date('February 16, 2016 23:59:59 GMT-0600'),
       text: "<b>Tuesday, February 16</b> is your deadline to register to vote! Ohio does not have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in.<div class='small'>[<a href='http://voterlookup.sos.state.oh.us/voterlookup.aspx'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/ohio/'>More info</a>]</div>"
     }
+  ],
+  "South Carolina": [
+    {
+      startTime: new Date('February 22, 2016 23:59:59 GMT-0800'),
+      deadline: new Date('February 27, 2016 23:59:59 GMT-0800'),
+      text: "Don't forget to vote on <b>Saturday, February 27</b> - <i>every single vote makes a difference</i> in this race! You can vote in the SC Democratic Primary no matter what party you're registered as.<div class='small'>[<a href='https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/south-carolina/'>Want more info?</a>]</div>"
+    }
   ]
 }
