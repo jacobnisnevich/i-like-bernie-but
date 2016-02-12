@@ -38,14 +38,21 @@ var messages = {
     {
       startTime: new Date('February 15, 2016 10:00:00 GMT-0800'),
       deadline: new Date('February 20, 2016 10:00:00 GMT-0800'),
-      text: "Don't forget to caucus on <b>Saturday, February 20</b> - <i>every single vote makes a difference</i> in this race! You must show up at your caucus location by <b>11 am</b>!<br><b>P.S.</b> Even if you're not registered to vote, <i>you can register at your caucus location</i>, so don't let that stop you.<div class='small'>[<a href='http://bernadvisory.org/interactive/nevada'>Don't know where your caucus location is?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/nevada/'>Want more info?</a>]</div>"
+      text: "Don't forget to caucus on <b>Saturday, February 20</b> &mdash; <i>every single vote makes a difference</i> in this race! You must show up at your caucus location by <b>11 am</b>!<br><b>P.S.</b> Even if you're not registered to vote, <i>you can register at your caucus location</i>, so don't let that stop you.<div class='small'>[<a href='http://bernadvisory.org/interactive/nevada'>Don't know where your caucus location is?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/nevada/'>Want more info?</a>]</div>"
     }
   ],
   "New Hampshire": [
     {
       startTime: new Date('February 9, 2016 00:00:00 GMT-0500'),
       deadline: new Date('February 9, 2016 20:00:00 GMT-0500'),
-      text: "Don't forget to vote today - <b>every single vote</b> makes a difference in this race!<div class='small'>[<a href='http://app.sos.nh.gov/Public/PollingPlaceSearch.aspx'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/new-hampshire/'>Not sure if you're eligible to vote?</a>]</div>"
+      text: "Don't forget to vote today &mdash; <b>every single vote</b> makes a difference in this race!<div class='small'>[<a href='http://app.sos.nh.gov/Public/PollingPlaceSearch.aspx'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/new-hampshire/'>Not sure if you're eligible to vote?</a>]</div>"
+    }
+  ],
+  "North Carolina": [
+    {
+      startTime: new Date('February 15, 2016 23:59:59 GMT-0500'),
+      deadline: new Date('February 19, 2016 23:59:59 GMT-0500'),
+      text: "<b>Wednesday, February 19</b> is your deadline to register to vote in the March 15 primary! You must be registered as a Democrat or undeclared to vote in the Democratic primary &mdash; if you're a Republican you must re-register. North Carolina doesn't have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in. <div class='small'>[<a href='https://vt.ncsbe.gov/Voter_Search_Public/'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/north-carolina/'>More info</a>]</div>"
     }
   ],
   "Ohio": [
@@ -59,7 +66,7 @@ var messages = {
     {
       startTime: new Date('February 22, 2016 23:59:59 GMT-0800'),
       deadline: new Date('February 27, 2016 23:59:59 GMT-0800'),
-      text: "Don't forget to vote on <b>Saturday, February 27</b> - <i>every single vote makes a difference</i> in this race! You can vote in the SC Democratic Primary no matter what party you're registered as.<div class='small'>[<a href='https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/south-carolina/'>Want more info?</a>]</div>"
+      text: "Don't forget to vote on <b>Saturday, February 27</b> &mdash; <i>every single vote makes a difference</i> in this race! You can vote in the SC Democratic Primary no matter what party you're registered as.<div class='small'>[<a href='https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/south-carolina/'>Want more info?</a>]</div>"
     }
   ]
 }
