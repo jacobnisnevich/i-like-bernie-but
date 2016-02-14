@@ -19,9 +19,18 @@
 
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/faq.js"></script>
+	<script src="js/messages.js"></script>
 	<script src="js/scripts.js"></script>
 </head>
 <body>
+	<div id="message" class="shadow">
+		<div id="close-message">x</div>
+		<div id="message-text">
+			Looks like you're in <b><span id="message-state"></span></b>.<br>
+			<div id="message-custom-text"></div>
+		</div>
+	</div>
+	<div id="gray-screen"></div>
 	<div class="header shadow">
 		<div class="header-text container">I Like Bernie, But...</div>
 	</div>
@@ -46,6 +55,8 @@
 		<a href="http://twitter.com/intent/tweet?status=I Like Bernie, But...+http://ilikeberniebut.com/"><img src="img/twitter.png"/></a>
 		<a href="https://plus.google.com/share?url=http://ilikeberniebut.com/"><img src="img/google.png"/></a>
 	</div>
+
+	<iframe id="bernrate" src="http://www.bernrate.com/active" width="0" height="0"></iframe>
 
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

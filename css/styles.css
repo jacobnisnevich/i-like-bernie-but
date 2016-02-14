@@ -28,6 +28,57 @@ body {
 	clear: both;
 }
 
+#message {
+	width: 70%;
+	display: none;
+	position: absolute;
+	margin: 0 auto;
+	background-color: rgb(245, 91, 91);
+	left: 10px;
+	right: 10px;
+	top: 10px;
+	border-radius: 5px;
+	z-index: 4;
+}
+
+#message .small {
+	margin-top: 10px;
+	font-size: 0.6em;
+}
+
+#close-message {
+	font: 30px "Roboto", sans-serif;
+	color: white;
+	position: absolute;
+	top: 5px;
+	right: 7px;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+#message-text {
+	font: 24px "Roboto Slab", serif;
+	padding: 34px;
+	text-align: center;
+	color: white;
+}
+
+#message-custom-text {
+	margin-top: 10px;
+}
+
+#gray-screen {
+	display: none;
+	background-color: #666;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 3;
+}
+
 .header {
 	position: relative;
 	width: 100%;
@@ -257,6 +308,10 @@ a:hover {
 	display: inline !important;
 }
 
+#bernrate {
+	display: none;
+}
+
 @media (max-width: 800px) {
 	.header {
 		height: 160px;
@@ -286,5 +341,40 @@ a:hover {
 		text-align: center;
 		width: 90%;
 		padding: 10px;
+	}
+
+	#message {
+    position: inherit;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+		background-color: #FEEFB3;
+		color: #9F6000;
+	}
+
+	#message-text {
+		padding: 12px;
+		font-size: 18px;
+		color: inherit;
+	}
+
+	#message-text a {
+		color: inherit;
+	}
+
+	#message .small {
+		font-size: 0.8em;
+	}
+
+	#close-message {
+		font-size: 60px;
+		margin-top: 10px;
+		margin-right: 10px;
+		color: inherit;
+	}
+
+	#gray-screen {
+		display: none !important;
 	}
 }

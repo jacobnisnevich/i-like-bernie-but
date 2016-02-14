@@ -1,9 +1,44 @@
+function displayAnyMessagesForState(state) {
+	if (messages[state]) {
+		// any messages with deadlines within 2 days from now?
+		messages[state].forEach(function (message) {
+			if (Date.now() < message.deadline.getTime() && Date.now() > message.startTime.getTime()) {
+				$("#message-state").text(state);
+				$("#message-custom-text").html(message.text);
+
+				$("#message-custom-text a").click(function() {
+					ga('send', 'event', 'Message Outbound', 'click', state + ":" + $(this).attr("href"));
+					return true;
+				});
+
+				$("#message").show();
+				$("#gray-screen").show();
+				
+				ga('send', 'event', 'Message', 'show', state);
+			}
+		});
+	}
+}
+
 $(document).ready(function() {
 	faq.forEach(function(entry, index) {
 		generateEntry(entry, index);
 	});
 
 	var followScroll = true;
+	var ipInfoApiKey = "9e5d5cef52a748a4342915d7f9e6517c60e2eca0baf5f111ff9eaef78ae358fe";
+
+	$.getJSON("https://api.ipify.org?format=json", function(data) {
+		var ipLookup = "http://api.ipinfodb.com/v3/ip-city/?key=" + ipInfoApiKey + "&ip=" + data.ip + "&format=json"
+		$.getJSON(ipLookup, function(data) {
+			displayAnyMessagesForState(data.regionName);
+		});
+	});
+
+	$("#close-message").click(function() {
+		$("#message").fadeOut(200);
+		$("#gray-screen").fadeOut(200);
+	});
 
 	$(".toc-entry").click(function() {
 		var index = this.id.match(/toc-entry-(.*)/);
@@ -67,11 +102,18 @@ $(document).ready(function() {
 	});
 
 	$(".created-by").click(function() {
+		ga('send', 'event', 'Outbound', 'click', "https://github.com/jacobnisnevich/i-like-bernie-but");
 		window.open("https://github.com/jacobnisnevich/i-like-bernie-but", "_blank");
 	});
 
 	$(".convinced-button").click(function() {
+		ga('send', 'event', 'Convinced', 'click', "http://berniesanders.com");
 		window.open("http://berniesanders.com", "_blank");
+	});
+
+	$("a").click(function() {
+		ga('send', 'event', 'Outbound', 'click', $(this).attr("href"));
+		return true;
 	});
 });
 
