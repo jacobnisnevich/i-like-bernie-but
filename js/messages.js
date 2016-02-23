@@ -4,6 +4,11 @@ var messages = {
       startTime: new Date('February 12, 2016 23:59:59 GMT-0500'),
       deadline: new Date('February 15, 2016 23:59:59 GMT-0500'),
       text: "<b>Monday, February 15</b> is your deadline to register to vote! You can be registered under any party to vote in the Democratic primary, but just make sure that you're registered by Monday.<div class='small'>[<a href='https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;<b>[<a href='https://www.alabamavotes.gov/olvr/default.aspx'>Register online!</a>]</b>&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/alabama/'>More info</a>]</div>"
+    },
+    {
+      startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
+      deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
+      text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Alabama has open primaries, so you can vote in the Democratic party regardless of your party affiliation. <div class='small'>[<a href='https://myinfo.alabamavotes.gov/'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/AL'>More info</a>]</div>"
     }
   ],
   "Arizona": [
@@ -11,6 +16,20 @@ var messages = {
       startTime: new Date('February 19, 2016 23:59:59 GMT-0800'),
       deadline: new Date('February 22, 2016 23:59:59 GMT-0800'),
       text: "<b>Monday, February 15</b> is your deadline to <a href='http://servicearizona.com/voterRegistration'>register to vote</a>! You must be registered as a Democrat to vote in the AZ Democratic primary &mdash; if you're a Republican or independent, you must re-register.<div class='small'>[<a href='https://voter.azsos.gov/VoterView/RegistrantSearch.do'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;<b>[<a href='http://servicearizona.com/voterRegistration'>Register online!</a>]</b>&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/arizona/'>More info</a>]</div>"
+    }
+  ],
+  "Arkansas": [
+    {
+      startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
+      deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
+      text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Arkansas has open primaries, so you can vote in the Democratic party regardless of your party affiliation. <div class='small'>[<a href='https://www.voterview.ar-nova.org/VoterView/RegistrantSearch.do'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/AR'>More info</a>]</div>"
+    }
+  ],
+  "Colorado": [
+    {
+      startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
+      deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
+      text: "Don't forget to caucus on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Make sure to be in line by <b>6:30pm</b> to ensure that your vote will be counted. <div class='small'>[<a href='https://vote.berniesanders.com/CO'>Don't know where your caucus location is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/CO'>More info</a>]</div>"
     }
   ],
   "Delaware": [
