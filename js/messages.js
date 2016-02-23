@@ -114,6 +114,13 @@ var messages = {
       text: "<b>Tuesday, February 16</b> is your deadline to register to vote! Ohio does not have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in.<div class='small'>[<a href='http://voterlookup.sos.state.oh.us/voterlookup.aspx'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/ohio/'>More info</a>]</div>"
     }
   ],
+  "Oklahoma": [
+    {
+      startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
+      deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
+      text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! You can vote in the Democratic primaries if you're registered Democrat or undeclared. <div class='small'>[<a href='https://vote.berniesanders.com/OK'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/OK'>More info</a>]</div>"
+    }
+  ],
   "South Carolina": [
     {
       startTime: new Date('February 22, 2016 23:59:59 GMT-0800'),
@@ -121,11 +128,37 @@ var messages = {
       text: "Don't forget to vote on <b>Saturday, February 27</b> &mdash; <i>every single vote makes a difference</i> in this race! You can vote in the SC Democratic Primary no matter what party you're registered as.<div class='small'>[<a href='https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/south-carolina/'>Want more info?</a>]</div>"
     }
   ],
+  "Tennessee": [
+    {
+      startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
+      deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
+      text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Tennessee has open primaries, so you can vote in the Democratic primary regardless of your party affiliation. <div class='small'>[<a href='https://vote.berniesanders.com/TN'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/TN'>More info</a>]</div>"
+    }
+  ],
+  "Texas": [
+    {
+      startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
+      deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
+      text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Texas has open primaries, so you can vote in the Democratic primary regardless of your party affiliation. <div class='small'>[<a href='https://teamrv-mvp.sos.texas.gov/MVP/mvp.do'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/TX'>More info</a>]</div>"
+    }
+  ],
   "Vermont": [
     {
       startTime: new Date('February 21, 2016 23:59:59 GMT-0500'),
       deadline: new Date('February 24, 2016 23:59:59 GMT-0500'),
       text: "<b>Wednesday, February 24</b> is your deadline to <a href='https://olvr.sec.state.vt.us/'>register to vote</a>! <div class='small'>[<a href='https://s1.sos.mo.gov/elections/voterlookup/'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/vermont/'>More info</a>]</div>"
+    },
+    {
+      startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
+      deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
+      text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Vermont has open primaries, so you can vote in the Democratic primary regardless of your party affiliation. <div class='small'>[<a href='https://www.sec.state.vt.us/elections/frequently-asked-questions/voting-information.aspx#faq-2677'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/VT'>More info</a>]</div>"
+    }
+  ],
+  "Virginia": [
+    {
+      startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
+      deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
+      text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Virginia has open primaries, so you can vote in the Democratic primary regardless of your party affiliation. <div class='small'>[<a href='https://vote.berniesanders.com/VA'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/VA'>More info</a>]</div>"
     }
   ]
 }
