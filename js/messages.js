@@ -13,6 +13,13 @@ var messages = {
       text: "<b>Monday, February 15</b> is your deadline to <a href='http://servicearizona.com/voterRegistration'>register to vote</a>! You must be registered as a Democrat to vote in the AZ Democratic primary &mdash; if you're a Republican or independent, you must re-register.<div class='small'>[<a href='https://voter.azsos.gov/VoterView/RegistrantSearch.do'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;<b>[<a href='http://servicearizona.com/voterRegistration'>Register online!</a>]</b>&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/arizona/'>More info</a>]</div>"
     }
   ],
+  "Delaware": [
+    {
+      startTime: new Date('February 23, 2016 23:59:59 GMT-0500'),
+      deadline: new Date('February 26, 2016 23:59:59 GMT-0500'),
+      text: "You must be registered Democratic to vote in the Delaware primaries. If you are registered to vote as a Republican or Independent, the deadline to <a href='https://ivote.de.gov/voterregterms.aspx'>change your affiliation to Democratic</a> is <b>Friday, February 26</b>. If you're not registered to vote yet, you have until Saturday, April 2.<div class='small'>[<a href='https://ivote.de.gov/voterregterms.aspx'>Check your registration status</a>]&nbsp;&nbsp;&nbsp;<b>[<a href='https://ivote.de.gov/voterinfo.aspx'>Register online!</a>]</b>&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/DE/'>More info</a>]</div>"
+    }
+  ],
   "Florida": [
     {
       startTime: new Date('February 12, 2016 23:59:59 GMT-0500'),
@@ -74,6 +81,13 @@ var messages = {
       startTime: new Date('February 22, 2016 23:59:59 GMT-0800'),
       deadline: new Date('February 27, 2016 23:59:59 GMT-0800'),
       text: "Don't forget to vote on <b>Saturday, February 27</b> &mdash; <i>every single vote makes a difference</i> in this race! You can vote in the SC Democratic Primary no matter what party you're registered as.<div class='small'>[<a href='https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/south-carolina/'>Want more info?</a>]</div>"
+    }
+  ],
+  "Vermont": [
+    {
+      startTime: new Date('February 21, 2016 23:59:59 GMT-0500'),
+      deadline: new Date('February 24, 2016 23:59:59 GMT-0500'),
+      text: "<b>Wednesday, February 24</b> is your deadline to <a href='https://olvr.sec.state.vt.us/'>register to vote</a>! <div class='small'>[<a href='https://s1.sos.mo.gov/elections/voterlookup/'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/vermont/'>More info</a>]</div>"
     }
   ]
 }
