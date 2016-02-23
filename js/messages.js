@@ -46,6 +46,13 @@ var messages = {
       text: "<b>Tuesday, February 16</b> is your deadline to register to vote! In Florida, you <b>must be registered as a Democrat</b> to vote in the Democratic primary. Florida doesn't have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in.<div class='small'>[<a href='http://registration.elections.myflorida.com/CheckVoterStatus'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/florida/'>More info</a>]</div>"
     }
   ],
+  "Georgia": [
+    {
+      startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
+      deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
+      text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Georgia has open primaries, so you can vote in the Democratic party regardless of your party affiliation. <div class='small'>[<a href='https://vote.berniesanders.com/GA'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/GA'>More info</a>]</div>"
+    }
+  ],
   "Maine": [
     {
       startTime: new Date('February 15, 2016 23:59:59 GMT-0500'),
@@ -58,6 +65,18 @@ var messages = {
       startTime: new Date('February 8, 2016 20:00:00 GMT-0500'),
       deadline: new Date('February 10, 2016 20:00:00 GMT-0500'),
       text: "Did you know that you <a href='http://voteforbernie.org/state/massachusetts/'>must be registered as a Democrat or an Undeclared</a> in order to vote in the MA Democratic primary? <b>Today (2/10)</b> is the last day to register, and if you're a Republican or Independent you <i>must</i> do this if you want to vote for Bernie! Registration is easy and you can even <a href='https://www.sec.state.ma.us/OVR/'>do it online</a>."
+    },
+    {
+      startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
+      deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
+      text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! You can vote in the Democratic primaries if you're registered Democrat or undeclared. <div class='small'>[<a href='http://www.wheredoivotema.com/bal/myelectioninfo.aspx'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/MA'>More info</a>]</div>"
+    }
+  ],
+  "Minnesota": [
+    {
+      startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
+      deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
+      text: "Don't forget to caucus on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! <div class='small'>[<a href='https://vote.berniesanders.com/MN'>Don't know where your caucus location is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/MN'>More info</a>]</div>"
     }
   ],
   "Missouri": [
