@@ -44,6 +44,11 @@ var messages = {
       startTime: new Date('February 12, 2016 23:59:59 GMT-0500'),
       deadline: new Date('February 16, 2016 23:59:59 GMT-0500'),
       text: "<b>Tuesday, February 16</b> is your deadline to register to vote! In Florida, you <b>must be registered as a Democrat</b> to vote in the Democratic primary. Florida doesn't have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in.<div class='small'>[<a href='http://registration.elections.myflorida.com/CheckVoterStatus'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/florida/'>More info</a>]</div>"
+    },
+    {
+      startTime: new Date('March 12, 2016 00:00:00 GMT-0800'),
+      deadline: new Date('March 15, 2016 20:00:00 GMT-0800'),
+      text: "Don't forget to vote on <b>Tuesday, March 15</b> &mdash; <b>every single vote</b> makes a difference in this race! You must be a registered Democrat to vote in the Florida primary. <div class='small'>[<a href='http://registration.elections.myflorida.com/CheckVoterStatus'>Not sure if you're registered to vote?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/FL'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/FL'>More info</a>]</div>"
     }
   ],
   "Georgia": [
@@ -53,11 +58,11 @@ var messages = {
       text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Georgia has open primaries, so you can vote in the Democratic party regardless of your party affiliation. <div class='small'>[<a href='https://vote.berniesanders.com/GA'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/GA'>More info</a>]</div>"
     }
   ],
-  "Louisiana": [
+  "Illinois": [
     {
-      startTime: new Date('March 2, 2016 00:00:00 GMT-0700'),
-      deadline: new Date('March 5, 2016 20:00:00 GMT-0700'),
-      text: "Don't forget to vote on <b>Saturday, March 5</b> &mdash; <b>every single vote</b> makes a difference in this race! You must be a registered Democrat to vote in the Louisiana primary. <div class='small'>[<a href='https://vote.berniesanders.com/LA'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/LA'>More info</a>]</div>"
+      startTime: new Date('March 12, 2016 00:00:00 GMT-0800'),
+      deadline: new Date('March 15, 2016 20:00:00 GMT-0800'),
+      text: "Don't forget to vote on <b>Tuesday, March 15</b> &mdash; <b>every single vote</b> makes a difference in this race! Illinois has open primaries: you can vote in the Democratic primary regardless of party affiliation. <div class='small'>[<a href='https://www.elections.il.gov/votinginformation/registrationlookup.aspx'>Not sure if you're registered to vote?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/IL'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/IL'>More info</a>]</div>"
     }
   ],
   "Kansas": [
@@ -65,6 +70,13 @@ var messages = {
       startTime: new Date('March 2, 2016 00:00:00 GMT-0700'),
       deadline: new Date('March 5, 2016 20:00:00 GMT-0700'),
       text: "Don't forget to caucus on <b>Saturday, March 5</b> &mdash; <b>every single vote</b> makes a difference in this race! If you're not a registered Democrat, don't worry: you can <a href='https://www.kdor.org/voterregistration/'>register as a Democrat online</a> or do same-day registration at the caucus. Make sure to be in line by <b>2:30pm</b> to ensure that your vote will be counted. <div class='small'>[<a href='https://www.kdor.org/voterregistration/'>Register to vote online!</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/KS'>Find your caucus location</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/KS'>More info</a>]</div>"
+    }
+  ],
+  "Louisiana": [
+    {
+      startTime: new Date('March 2, 2016 00:00:00 GMT-0700'),
+      deadline: new Date('March 5, 2016 20:00:00 GMT-0700'),
+      text: "Don't forget to vote on <b>Saturday, March 5</b> &mdash; <b>every single vote</b> makes a difference in this race! You must be a registered Democrat to vote in the Louisiana primary. <div class='small'>[<a href='https://vote.berniesanders.com/LA'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/LA'>More info</a>]</div>"
     }
   ],
   "Maine": [
@@ -117,6 +129,11 @@ var messages = {
       startTime: new Date('February 14, 2016 23:59:59 GMT-0600'),
       deadline: new Date('February 17, 2016 23:59:59 GMT-0600'),
       text: "<b>Wednesday, February 17</b> is your deadline to <a href='http://www.sos.mo.gov/elections/goVoteMissouri/register'>register to vote</a>! <div class='small'>[<a href='https://s1.sos.mo.gov/elections/voterlookup/'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/missouri/'>More info</a>]</div>"
+    },
+    {
+      startTime: new Date('March 12, 2016 00:00:00 GMT-0800'),
+      deadline: new Date('March 15, 2016 20:00:00 GMT-0800'),
+      text: "Don't forget to vote on <b>Tuesday, March 15</b> &mdash; <b>every single vote</b> makes a difference in this race! Missouri has open primaries: you can vote in the Democratic primary regardless of party affiliation. <div class='small'>[<a href='http://s1.sos.mo.gov/elections/voterlookup/'>Not sure if you're registered to vote?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://s1.sos.mo.gov/elections/voterlookup/'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/MO/'>More info</a>]</div>"
     }
   ],
   "Nebraska": [
@@ -145,6 +162,11 @@ var messages = {
       startTime: new Date('February 15, 2016 23:59:59 GMT-0500'),
       deadline: new Date('February 19, 2016 23:59:59 GMT-0500'),
       text: "<b>Wednesday, February 19</b> is your deadline to register to vote in the March 15 primary! You must be registered as a Democrat or undeclared to vote in the Democratic primary &mdash; if you're a Republican you must re-register. North Carolina doesn't have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in. <div class='small'>[<a href='https://vt.ncsbe.gov/Voter_Search_Public/'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/north-carolina/'>More info</a>]</div>"
+    },
+    {
+      startTime: new Date('March 12, 2016 00:00:00 GMT-0800'),
+      deadline: new Date('March 15, 2016 20:00:00 GMT-0800'),
+      text: "Don't forget to vote on <b>Tuesday, March 15</b> &mdash; <b>every single vote</b> makes a difference in this race! North Carolina has semi-closed primaries: you can vote in the Democratic primary if you're registered Democrat or independent. <div class='small'>[<a href='https://enr.ncsbe.gov/voter_search_public/'>Not sure if you're registered to vote?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/NC/'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/NC/'>More info</a>]</div>"
     }
   ],
   "Ohio": [
@@ -152,6 +174,11 @@ var messages = {
       startTime: new Date('February 12, 2016 23:59:59 GMT-0600'),
       deadline: new Date('February 16, 2016 23:59:59 GMT-0600'),
       text: "<b>Tuesday, February 16</b> is your deadline to register to vote! Ohio does not have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in.<div class='small'>[<a href='http://voterlookup.sos.state.oh.us/voterlookup.aspx'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/ohio/'>More info</a>]</div>"
+    },
+    {
+      startTime: new Date('March 12, 2016 00:00:00 GMT-0800'),
+      deadline: new Date('March 15, 2016 20:00:00 GMT-0800'),
+      text: "Don't forget to vote on <b>Tuesday, March 15</b> &mdash; <b>every single vote</b> makes a difference in this race! Ohio has open primaries: you can vote in the Democratic primary regardless of your party affiliation. <div class='small'>[<a href='http://voterlookup.sos.state.oh.us/voterlookup.aspx'>Not sure if you're registered to vote?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/OH'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/OH'>More info</a>]</div>"
     }
   ],
   "Oklahoma": [

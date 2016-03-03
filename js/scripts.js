@@ -1,8 +1,8 @@
-function displayAnyMessagesForState(state) {
+function displayAnyMessagesForState(state, override) {
 	if (messages[state]) {
 		// any messages with deadlines within 2 days from now?
 		messages[state].forEach(function (message) {
-			if (Date.now() < message.deadline.getTime() && Date.now() > message.startTime.getTime()) {
+			if ((Date.now() < message.deadline.getTime() && Date.now() > message.startTime.getTime()) || override) {
 				$("#message-state").text(state);
 				$("#message-custom-text").html(message.text);
 
