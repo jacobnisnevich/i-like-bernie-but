@@ -53,11 +53,30 @@ var messages = {
       text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Georgia has open primaries, so you can vote in the Democratic party regardless of your party affiliation. <div class='small'>[<a href='https://vote.berniesanders.com/GA'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/GA'>More info</a>]</div>"
     }
   ],
+  "Louisiana": [
+    {
+      startTime: new Date('March 2, 2016 00:00:00 GMT-0700'),
+      deadline: new Date('March 5, 2016 20:00:00 GMT-0700'),
+      text: "Don't forget to vote on <b>Saturday, March 5</b> &mdash; <b>every single vote</b> makes a difference in this race! You must be a registered Democrat to vote in the Louisiana primary. <div class='small'>[<a href='https://vote.berniesanders.com/LA'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/LA'>More info</a>]</div>"
+    }
+  ],
+  "Kansas": [
+    {
+      startTime: new Date('March 2, 2016 00:00:00 GMT-0700'),
+      deadline: new Date('March 5, 2016 20:00:00 GMT-0700'),
+      text: "Don't forget to caucus on <b>Saturday, March 5</b> &mdash; <b>every single vote</b> makes a difference in this race! If you're not a registered Democrat, don't worry: you can <a href='https://www.kdor.org/voterregistration/'>register as a Democrat online</a> or do same-day registration at the caucus. Make sure to be in line by <b>2:30pm</b> to ensure that your vote will be counted. <div class='small'>[<a href='https://www.kdor.org/voterregistration/'>Register to vote online!</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/KS'>Find your caucus location</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/KS'>More info</a>]</div>"
+    }
+  ],
   "Maine": [
     {
       startTime: new Date('February 15, 2016 23:59:59 GMT-0500'),
       deadline: new Date('February 19, 2016 23:59:59 GMT-0500'),
       text: "If you're registered to vote as a <i>Republican</i>, <b>Wednesday, February 19</b> is your deadline to re-register as a Democrat to vote in the March 6 caucus! Maine doesn't have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in. <div class='small'>[<a href='http://www.maine.gov/portal/government/edemocracy/voter_lookup.php'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/maine/'>More info</a>]</div>"
+    },
+    {
+      startTime: new Date('March 2, 2016 00:00:00 GMT-0700'),
+      deadline: new Date('March 6, 2016 20:00:00 GMT-0700'),
+      text: "Don't forget to caucus on <b>Sunday, March 8</b> &mdash; <b>every single vote</b> makes a difference in this race! If you're not registered to vote or if you're registered unaffiliated, don't worry: you can <a href='http://www.maine.gov/sos/cec/elec/voter-info/voterguide.html'>register as a Democrat online</a> or do same-day registration at the caucus. <div class='small'>[<a href='http://www.maine.gov/sos/cec/elec/voter-info/voterguide.html'>Register to vote online!</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/ME'>Find your caucus location</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/ME'>More info</a>]</div>"
     }
   ],
   "Massachusetts": [
@@ -72,6 +91,13 @@ var messages = {
       text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! You can vote in the Democratic primaries if you're registered Democrat or undeclared. <div class='small'>[<a href='http://www.wheredoivotema.com/bal/myelectioninfo.aspx'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/MA'>More info</a>]</div>"
     }
   ],
+  "Michigan": [
+    {
+      startTime: new Date('March 2, 2016 00:00:00 GMT-0700'),
+      deadline: new Date('March 8, 2016 20:00:00 GMT-0600'),
+      text: "Don't forget to vote on <b>Tuesday, March 8</b> &mdash; <b>every single vote</b> makes a difference in this race! You don't have to be a registered Democrat to vote in the Michigan primary. Just make sure to request a Democratic ballot at your polling place. <div class='small'>[<a href='http://www.michigan.gov/vote'>Check your voter registration</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/MI/'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/MI/'>More info</a>]</div>"
+    }
+  ],
   "Minnesota": [
     {
       startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
@@ -79,11 +105,25 @@ var messages = {
       text: "Don't forget to caucus on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! <div class='small'>[<a href='https://vote.berniesanders.com/MN'>Don't know where your caucus location is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/MN'>More info</a>]</div>"
     }
   ],
+  "Mississippi": [
+    {
+      startTime: new Date('March 2, 2016 00:00:00 GMT-0700'),
+      deadline: new Date('March 8, 2016 20:00:00 GMT-0600'),
+      text: "Don't forget to vote on <b>Tuesday, March 8</b> &mdash; <b>every single vote</b> makes a difference in this race! You don't even have to be a registered Democrat to vote in the Mississippi primary.<div class='small'>[<a href='https://vote.berniesanders.com/MS/'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/MS/'>More info</a>]</div>"
+    }
+  ],
   "Missouri": [
     {
       startTime: new Date('February 14, 2016 23:59:59 GMT-0600'),
       deadline: new Date('February 17, 2016 23:59:59 GMT-0600'),
       text: "<b>Wednesday, February 17</b> is your deadline to <a href='http://www.sos.mo.gov/elections/goVoteMissouri/register'>register to vote</a>! <div class='small'>[<a href='https://s1.sos.mo.gov/elections/voterlookup/'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/missouri/'>More info</a>]</div>"
+    }
+  ],
+  "Nebraska": [
+    {
+      startTime: new Date('March 2, 2016 00:00:00 GMT-0700'),
+      deadline: new Date('March 5, 2016 20:00:00 GMT-0700'),
+      text: "Don't forget to caucus on <b>Saturday, March 5</b> &mdash; <b>every single vote</b> makes a difference in this race! If you're not a registered Democrat, don't worry: you can <a href='https://www.nebraska.gov/apps-sos-voter-registration/'>register as a Democrat online</a> or do same-day registration at the caucus. <div class='small'>[<a href='https://www.nebraska.gov/apps-sos-voter-registration/'>Register to vote online!</a>]&nbsp;&nbsp;&nbsp;[<a href='http://nebraskacaucus2016.org/'>Find your caucus location and time</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/NE'>More info</a>]</div>"
     }
   ],
   "Nevada": [
