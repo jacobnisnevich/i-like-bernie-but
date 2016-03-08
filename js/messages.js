@@ -46,7 +46,12 @@ var messages = {
       text: "<b>Tuesday, February 16</b> is your deadline to register to vote! In Florida, you <b>must be registered as a Democrat</b> to vote in the Democratic primary. Florida doesn't have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in.<div class='small'>[<a href='http://registration.elections.myflorida.com/CheckVoterStatus'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/florida/'>More info</a>]</div>"
     },
     {
-      startTime: new Date('March 12, 2016 00:00:00 GMT-0800'),
+      startTime: new Date('March 7, 2016 00:00:00 GMT-0800'),
+      deadline: new Date('March 12, 2016 20:00:00 GMT-0800'),
+      text: "Did you know that Florida has early voting? You can participate in <a href='http://dos.myflorida.com/elections/for-voters/voting/early-voting/'>early in-person voting</a> up until <b>Saturday, March 12</b>. Why wait until Election Day? <div class='small'>[<a href='https://www.elections.il.gov/votinginformation/registrationlookup.aspx'>Not sure if you're registered to vote?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://dos.myflorida.com/elections/for-voters/voting/early-voting/'>Look up early voting locations and times</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/IL'>More info</a>]</div>"
+    },
+    {
+      startTime: new Date('March 12, 2016 20:00:01 GMT-0800'),
       deadline: new Date('March 15, 2016 20:00:00 GMT-0800'),
       text: "Don't forget to vote on <b>Tuesday, March 15</b> &mdash; <b>every single vote</b> makes a difference in this race! You must be a registered Democrat to vote in the Florida primary. <div class='small'>[<a href='http://registration.elections.myflorida.com/CheckVoterStatus'>Not sure if you're registered to vote?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/FL'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/FL'>More info</a>]</div>"
     }
