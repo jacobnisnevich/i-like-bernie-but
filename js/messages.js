@@ -48,7 +48,7 @@ var messages = {
     {
       startTime: new Date('March 7, 2016 00:00:00 GMT-0800'),
       deadline: new Date('March 12, 2016 20:00:00 GMT-0800'),
-      text: "Did you know that Florida has early voting? You can participate in <a href='http://dos.myflorida.com/elections/for-voters/voting/early-voting/'>early in-person voting</a> up until <b>Saturday, March 12</b>. Why wait until Election Day? <div class='small'>[<a href='https://www.elections.il.gov/votinginformation/registrationlookup.aspx'>Not sure if you're registered to vote?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://dos.myflorida.com/elections/for-voters/voting/early-voting/'>Look up early voting locations and times</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/IL'>More info</a>]</div>"
+      text: "Did you know that Florida has early voting? You can participate in <a href='http://dos.myflorida.com/elections/for-voters/voting/early-voting/'>early in-person voting</a> up until <b>Saturday, March 12</b>. Why wait until Election Day? <div class='small'>[<a href='http://registration.elections.myflorida.com/CheckVoterStatus'>Not sure if you're registered to vote?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://dos.myflorida.com/elections/for-voters/voting/early-voting/'>Look up early voting locations and times</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/FL'>More info</a>]</div>"
     },
     {
       startTime: new Date('March 12, 2016 20:00:01 GMT-0800'),
@@ -184,6 +184,11 @@ var messages = {
       startTime: new Date('February 12, 2016 23:59:59 GMT-0600'),
       deadline: new Date('February 16, 2016 23:59:59 GMT-0600'),
       text: "<b>Tuesday, February 16</b> is your deadline to register to vote! Ohio does not have online registration, but you can <a href='http://voteforbernie.org/register-to-vote/'>fill out a registration form</a> to print and mail in.<div class='small'>[<a href='http://voterlookup.sos.state.oh.us/voterlookup.aspx'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/ohio/'>More info</a>]</div>"
+    },
+    {
+      startTime: new Date('March 7, 2016 00:00:00 GMT-0800'),
+      deadline: new Date('March 14, 2016 20:00:00 GMT-0800'),
+      text: "Did you know that Ohio has early voting? You can participate in early voting up until the primary on <b>Tuesday, March 15</b>. Why wait until Election Day? Check with <a href='http://www.sos.state.oh.us/sos/elections/electionsofficials/boeDirectory.aspx'>your local elections board</a> to learn more about early in-person voting times and locations, or <a href='http://www.sos.state.oh.us/SOS/elections/Voters/votingAbsenteeByMail.aspx'>request an absentee ballot</a>.<div class='small'>[<a href='http://voterlookup.sos.state.oh.us/voterlookup.aspx'>Not sure if you're registered to vote?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/OH'>More info</a>]</div>"
     },
     {
       startTime: new Date('March 12, 2016 00:00:00 GMT-0800'),
