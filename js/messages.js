@@ -60,7 +60,12 @@ var messages = {
   ],
   "Illinois": [
     {
-      startTime: new Date('March 12, 2016 00:00:00 GMT-0800'),
+      startTime: new Date('March 7, 2016 00:00:00 GMT-0800'),
+      deadline: new Date('March 14, 2016 20:00:00 GMT-0800'),
+      text: "Did you know that Illinois has early voting? You can do <a href='http://www.elections.state.il.us/votinginformation/earlyvotinglocations.aspx'>early voting</a> up until the day of the primary on <b>Tuesday, March 15</b>. You can vote regardless of your party affiliation, and if you're not registered to vote yet, you can even <a href='https://www.elections.il.gov/Downloads/ElectionInformation/PDF/GracePeriodReg.pdf'>register</a> at early-voting sites. Why wait until Election Day? <div class='small'>[<a href='https://www.elections.il.gov/votinginformation/registrationlookup.aspx'>Not sure if you're registered to vote?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://www.elections.state.il.us/votinginformation/earlyvotinglocations.aspx'>Find your nearest early voting location</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/IL'>More info</a>]</div>"
+    },
+    {
+      startTime: new Date('March 14, 2016 20:00:01 GMT-0800'),
       deadline: new Date('March 15, 2016 20:00:00 GMT-0800'),
       text: "Don't forget to vote on <b>Tuesday, March 15</b> &mdash; <b>every single vote</b> makes a difference in this race! Illinois has open primaries: you can vote in the Democratic primary regardless of party affiliation. <div class='small'>[<a href='https://www.elections.il.gov/votinginformation/registrationlookup.aspx'>Not sure if you're registered to vote?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/IL'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/IL'>More info</a>]</div>"
     }
