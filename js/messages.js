@@ -117,7 +117,7 @@ var messages = {
     {
       startTime: new Date('March 2, 2016 00:00:00 GMT-0700'),
       deadline: new Date('March 8, 2016 20:00:00 GMT-0600'),
-      text: "Don't forget to vote on <b>Tuesday, March 8</b> &mdash; <b>every single vote</b> makes a difference in this race! You don't have to be a registered Democrat to vote in the Michigan primary. Just make sure to request a Democratic ballot at your polling place. <div class='small'>[<a href='http://www.michigan.gov/vote'>Check your voter registration</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/MI/'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/MI/'>More info</a>]</div>"
+      text: "Don't forget to vote on <b>today</b> &mdash; <b>every single vote</b> makes a difference in this race! You don't have to be a registered Democrat to vote in the Michigan primary. Just make sure to request a Democratic ballot at your polling place. <div class='small'>[<a href='http://www.michigan.gov/vote'>Check your voter registration</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/MI/'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/MI/'>More info</a>]</div>"
     }
   ],
   "Minnesota": [
