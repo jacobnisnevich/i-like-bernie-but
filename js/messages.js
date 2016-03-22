@@ -179,6 +179,13 @@ var messages = {
       text: "Don't forget to vote today &mdash; <b>every single vote</b> makes a difference in this race!<div class='small'>[<a href='http://app.sos.nh.gov/Public/PollingPlaceSearch.aspx'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/new-hampshire/'>Not sure if you're eligible to vote?</a>]</div>"
     }
   ],
+  "New York": [
+    {
+      startTime: new Date('March 21, 2016 23:59:59 GMT-0500'),
+      deadline: new Date('March 25, 2016 23:59:59 GMT-0500'),
+      text: "<b>Friday, March 25</b> is your deadline to <a href='http://www.elections.ny.gov/VotingRegister.html'>register to vote</a>! You must be registered as a Democrat to vote in the New York Democratic primary.<div class='small'>[<a href='https://voterlookup.elections.state.ny.us/VoterSearch.aspx'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;<b>[<a href='http://www.elections.ny.gov/VotingRegister.html'>Register to vote!</a>]</b>&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/NY/'>More info</a>]</div>"
+    }
+  ],
   "North Carolina": [
     {
       startTime: new Date('February 15, 2016 23:59:59 GMT-0500'),
