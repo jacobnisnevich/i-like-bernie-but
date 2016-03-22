@@ -16,6 +16,11 @@ var messages = {
       startTime: new Date('February 19, 2016 23:59:59 GMT-0800'),
       deadline: new Date('February 22, 2016 23:59:59 GMT-0800'),
       text: "<b>Monday, February 15</b> is your deadline to <a href='http://servicearizona.com/voterRegistration'>register to vote</a>! You must be registered as a Democrat to vote in the AZ Democratic primary &mdash; if you're a Republican or independent, you must re-register.<div class='small'>[<a href='https://voter.azsos.gov/VoterView/RegistrantSearch.do'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;<b>[<a href='http://servicearizona.com/voterRegistration'>Register online!</a>]</b>&nbsp;&nbsp;&nbsp;[<a href='http://voteforbernie.org/state/arizona/'>More info</a>]</div>"
+    },
+    {
+      startTime: new Date('March 22, 2016 00:00:00 GMT-0800'),
+      deadline: new Date('March 22, 2016 20:00:00 GMT-0800'),
+      text: "Don't forget to vote <b>today</b> &mdash; <i>every single vote</i> makes a difference in this race! You must be a registered Democrat as of February 22nd to vote.<br>(If you've already sent in an absentee ballot, <a href='https://voter.azsos.gov/VoterView/AbsenteeBallotSearch.do'>make sure it was counted!)</a><div class='small'>[<a href='https://voter.azsos.gov/VoterView/RegistrantSearch.do'>Check your registration status</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/AZ'>Find your polling place</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/AZ'>More voting info</a>]</div>"
     }
   ],
   "Arkansas": [
@@ -61,6 +66,13 @@ var messages = {
       startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
       deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
       text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Georgia has open primaries, so you can vote in the Democratic party regardless of your party affiliation. <div class='small'>[<a href='https://vote.berniesanders.com/GA'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/GA'>More info</a>]</div>"
+    }
+  ],
+  "Idaho": [
+    {
+      startTime: new Date('March 22, 2016 00:00:00 GMT-0800'),
+      deadline: new Date('March 22, 2016 20:00:00 GMT-0800'),
+      text: "Don't forget to caucus <b>today</b> &mdash; <i>every single vote</i> makes a difference in this race! If you're not a registered Democrat, don't worry: you can register at the caucus, as long as you haven't voted in the Republican primary. Make sure to be in line by <b>6:30pm</b> to ensure that your vote will be counted. <div class='small'>[<a href='https://vote.berniesanders.com/ID'>Find your caucus location</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/ID'>More voting info</a>]&nbsp;&nbsp;&nbsp;[<a href='https://drive.google.com/file/d/0B28L572ICSwGM0NrU0ktUEJ2TlU/view'>Take this printout with you!</a>]</div>"
     }
   ],
   "Illinois": [
@@ -222,6 +234,13 @@ var messages = {
       startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
       deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
       text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Texas has open primaries, so you can vote in the Democratic primary regardless of your party affiliation. <div class='small'>[<a href='https://teamrv-mvp.sos.texas.gov/MVP/mvp.do'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/TX'>More info</a>]</div>"
+    }
+  ],
+  "Utah": [
+    {
+      startTime: new Date('March 22, 2016 00:00:00 GMT-0800'),
+      deadline: new Date('March 22, 2016 20:00:00 GMT-0800'),
+      text: "Don't forget to caucus <b>today</b> &mdash; <i>every single vote</i> makes a difference in this race! If you're not a registered Democrat, don't worry: you can register at the caucus, even if you're a Republican. Make sure to be in line by <b>8:30pm</b> to ensure that your vote will be counted. <div class='small'>[<a href='https://vote.berniesanders.com/UT'>Find your caucus location</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/UT'>More voting info</a>]&nbsp;&nbsp;&nbsp;[<a href='https://drive.google.com/file/d/0B28L572ICSwGM0NrU0ktUEJ2TlU/view'>Take this printout with you!</a>]</div>"
     }
   ],
   "Vermont": [
