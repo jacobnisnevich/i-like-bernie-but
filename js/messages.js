@@ -222,6 +222,20 @@ var messages = {
       text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! You can vote in the Democratic primaries if you're registered Democrat or undeclared. <div class='small'>[<a href='https://vote.berniesanders.com/OK'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/OK'>More info</a>]</div>"
     }
   ],
+  "Pennsylvania": [
+    {
+      startTime: new Date('March 21, 2016 23:59:59 GMT-0500'),
+      deadline: new Date('March 28, 2016 23:59:59 GMT-0500'),
+      text: "<b>Monday, March 28</b> is your deadline to <a href='https://www.pavoterservices.state.pa.us/Pages/VoterRegistrationApplication.aspx'>register to vote</a>! You must be registered as a Democrat to vote in the Pennsylvania Democratic primary.<div class='small'>[<a href='https://www.pavoterservices.state.pa.us/Pages/VoterRegistrationStatus.aspx'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;<b>[<a href='https://www.pavoterservices.state.pa.us/Pages/VoterRegistrationApplication.aspx'>Register to vote!</a>]</b>&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/PA/'>More info</a>]</div>"
+    }
+  ],
+  "Rhode Island": [
+    {
+      startTime: new Date('March 21, 2016 23:59:59 GMT-0500'),
+      deadline: new Date('March 27, 2016 23:59:59 GMT-0500'),
+      text: "<b>Sunday, March 27</b> is your deadline to <a href='http://www.elections.state.ri.us/voting/registration.php'>register to vote</a>! You must be registered as a Democrat or undeclared to vote in the Rhode Island Democratic primary.<div class='small'>[<a href='http://www.sec.state.ri.us/vic/'>Check if you're registered</a>]&nbsp;&nbsp;&nbsp;<b>[<a href='http://www.elections.state.ri.us/voting/registration.php'>Register to vote!</a>]</b>&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/RI/'>More info</a>]</div>"
+    }
+  ],
   "South Carolina": [
     {
       startTime: new Date('February 22, 2016 23:59:59 GMT-0800'),
@@ -267,6 +281,13 @@ var messages = {
       startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
       deadline: new Date('March 1, 2016 20:00:00 GMT-0500'),
       text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Virginia has open primaries, so you can vote in the Democratic primary regardless of your party affiliation. <div class='small'>[<a href='https://vote.berniesanders.com/VA'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/VA'>More info</a>]</div>"
+    }
+  ],
+  "Wyoming": [
+    {
+      startTime: new Date('March 21, 2016 23:59:59 GMT-0500'),
+      deadline: new Date('March 25, 2016 23:59:59 GMT-0500'),
+      text: "<b>Friday, March 25</b> is your deadline to <a href='http://soswy.state.wy.us/elections/registeringtovote.aspx'>register to vote</a>! You must be registered as a Democrat to vote in the Wyoming Democratic primary.<div class='small'><b>[<a href='http://soswy.state.wy.us/elections/registeringtovote.aspx'>Register to vote!</a>]</b>&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/WY/'>More info</a>]</div>"
     }
   ]
 }
