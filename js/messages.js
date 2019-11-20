@@ -30,13 +30,6 @@ var messages = {
       text: "Don't forget to vote on <b>Tuesday, March 1</b> &mdash; <b>every single vote</b> makes a difference in this race! Arkansas has open primaries, so you can vote in the Democratic party regardless of your party affiliation. <div class='small'>[<a href='https://www.voterview.ar-nova.org/VoterView/RegistrantSearch.do'>Don't know where your polling place is?</a>]&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/AR'>More info</a>]</div>"
     }
   ],
-  "California": [
-    {
-      startTime: new Date('May 19, 2016 23:59:59 GMT-0800'),
-      deadline: new Date('May 23, 2016 23:59:59 GMT-0800'),
-      text: "<b>Monday, May 23</b> is your deadline to register to vote! In California, you <b>must be registered as a Democrat OR No Party Preference</b> to vote in the Democratic primary. If you are a Republican or American Independent, you must re-register. You can <a href='http://registertovote.ca.gov/'>register to vote online</a> in 15 minutes.<div class='small'>[<a href='http://www.sos.ca.gov/elections/registration-status/'>Check your voter status</a>]&nbsp;&nbsp;&nbsp;<b>[<a href='http://registertovote.ca.gov/'>Register to vote</a>]</b>&nbsp;&nbsp;&nbsp;[<a href='https://vote.berniesanders.com/CA/'>More info</a>]</div>"
-    }
-  ],
   "Colorado": [
     {
       startTime: new Date('February 29, 2016 00:00:00 GMT-0500'),
