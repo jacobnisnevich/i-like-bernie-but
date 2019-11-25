@@ -38,7 +38,7 @@ var faq = [{
     "question": "... I heard he wants to get rid of Obamacare!",
     "answer":
         "Bernie wants to <i>expand</i> health care coverage, not get rid of it!<br><br>" +
-        "Obamacare has made things a lot better, but it's only a step in the right direction: Americans are still <a href='https://www.cnbc.com/2019/10/09/americans-spend-twice-as-much-on-health-care-today-as-in-the-1980s.html'>paying more for healthcare than any other country</a>, and <b>more than 10%</b> of us still don't have health insurance.<br><br>" +
+        "Obamacare has made things better, but it's only a step in the right direction: Americans are still <a href='https://www.cnbc.com/2019/10/09/americans-spend-twice-as-much-on-health-care-today-as-in-the-1980s.html'>paying more for healthcare than any other country</a>, and <b>more than 10%</b> of us still don't have health insurance.<br><br>" +
         "Bernie's <a href='https://berniesanders.com/medicareforall/'>Medicare-for-all</a> proposal will do just what it says &mdash; provide coverage for every American citizen, while saving the average American family $2000&mdash;$4000 per year. <a href='http://bernietax.com/'>[Try the calculator!]</a> And it's popular – <a href='https://www.reuters.com/investigates/special-report/usa-election-progressives/'>70% of Americans</a>, including a majority of Republicans, now support Medicare For All.<br><br>" +
         "<a href='https://feelthebern.org/bernie-sanders-on-healthcare/'>Read more about Bernie's positions on healthcare.</a>"
 },{
